@@ -15,12 +15,13 @@ public class Main {
     public static void main(String[] args) {
         //[2,1,3,3]
         //2
-        int[] nums = {2,1,3,3};
-        int k =2;
-
+        int[] nums = {2, 1, 3, 3};
+        int k = 2;
+        int[] solution = solution(nums, k);
+        System.out.println(solution);
     }
 
-    public static int[] solution(int[] nums,int k){
+    public static int[] solution(int[] nums, int k) {
 
 
         return null;
