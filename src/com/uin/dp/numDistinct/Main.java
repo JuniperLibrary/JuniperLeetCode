@@ -28,6 +28,24 @@ public class Main {
         for (int i = 1; i <= t_len; i++) {
             for (int j = 1; j <= s_len; j++) {
                 //递推公式
+                /**
+                 * 1. 如果t和s的最后一个字符串相等，那么就有两种情况，
+                 *  s: r a b b b i t
+                 *  t:   r a b b i t
+                 *  此时:
+                 *      r a b b b i
+                 *        r a b b i
+                 *   也就是：
+                 *      dp[i - 1][j - 1]
+                 *   还有一种情况：
+                 *      不用字符串的s的第j个字符和t的第i个字符匹配，只需要计算"rabbbi"中含有多少个"rabbit"
+                 *   也就是:
+                 *      dp[i][j - 1]
+                 * 2. 如果字符串t的第i个字符和字符串s的第j个字符不一样，
+                 *   也就是说字符串s的第j个字符 不能匹配字符串t的第i个字符。
+                 *   那么我们只能计算字符串s的前j-1个字符构成的子序列
+                 *   中包含字符串t的前i个字符组成的字符串的个数。
+                 */
                 if (t.charAt(i - 1) == s.charAt(j - 1)) {
                     dp[i][j] = dp[i - 1][j - 1] + dp[i][j - 1];
                 }else {
