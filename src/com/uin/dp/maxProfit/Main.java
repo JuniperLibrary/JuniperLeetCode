@@ -21,6 +21,11 @@ public class Main {
          *      因为这样属于同时参与了多笔交易，你必须在再次购买前出售掉之前的股票。
          */
 
+        /**
+         * 解决的是最多交易两次的情况下所能获取的最大的利润
+         * @author wanglufei
+         */
+
         //最低的时候买入、最高的时候卖出
         int solution = solution(nums);
         System.out.println(solution);
@@ -30,6 +35,7 @@ public class Main {
 
     public static int solution(int nums[]) {
         int length = nums.length;
+
 
         //初始化状态
         //dp[i][j] 表示的是在j天结束之后最多交易i次所能获得的最大利润
