@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class demo01 {
     public static void main(String[] args) {
-        test4();
+        test5();
     }
 
     /**
@@ -87,6 +87,29 @@ public class demo01 {
         for (int[] num : nums) {
             System.out.println(Arrays.toString(num));
         }
+    }
+
+    /**
+     * 测试案例： TODO ???
+     * 2      //代表测试数据的组数
+     * 3 3 0 0
+     * 3 3 3 3
+     */
+    public static void test5() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入");
+        int n = scanner.nextInt();
+        List<List<Integer>> nums = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            List<Integer> integers = new ArrayList<>();
+            integers.add(scanner.nextInt());
+            nums.add(new ArrayList(integers));
+        }
+
+
+        System.out.println(n);
+        System.out.println(nums);
     }
 
 }

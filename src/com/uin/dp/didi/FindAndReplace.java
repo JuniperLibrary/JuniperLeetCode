@@ -17,4 +17,7 @@ package com.uin.dp.didi;
  * 输入保证s的长度在任意一次替换前后均不会超过2000，且t1与t2的长度之和不超过100。
  */
 public class FindAndReplace {
+    public static void main(String[] args) {
+
+    }
 }
