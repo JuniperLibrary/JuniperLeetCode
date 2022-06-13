@@ -19,6 +19,9 @@ public class Main {
         int right = (i + j + 1) / 2;
 
         //solution(nums1, i, nums2, j, k);
+
+        double v = solution2(nums1, nums2);
+        System.out.println(v);
     }
 
     public static double solution(int nums1[], int i, int nums2[], int j, int k) {
@@ -34,6 +37,60 @@ public class Main {
         } else {
             return solution(nums1, i, nums2, j + k / 2, k - k / 2);
         }
+    }
+
+    public static double solution2(int[] nums1, int[] nums2) {
+        int[] nums;
+        int m = nums1.length;
+        int n = nums2.length;
+
+        nums = new int[m + n];
+
+        if (m == 0) {
+            if (n % 2 == 0) {
+                //1 2 3 4
+                return (nums2[n / 2 - 1] + nums2[n / 2]) / 2.0;
+            } else {
+                //1 2 3
+                return nums2[n / 2];
+            }
+        }
+
+        if (n == 0) {
+            if (m % 2 == 0) {
+                return (nums1[n / 2 - 1] + nums1[n / 2]) / 2.0;
+            } else {
+                return nums1[n / 2];
+            }
+        }
+
+        int count = 0, i = 0, j = 0;
+
+        while (count != (m + n)) {
+            if (i == m) {
+                while (j != n) {
+                    nums[count++] = nums2[j++];
+                }
+                break;
+            }
+
+            if (j == n) {
+                while (i != m) {
+                    nums[count++] = nums1[i++];
+                }
+                break;
+            }
+            if (nums1[i] < nums2[j])
+                nums[count++] = nums1[i++];
+            else
+                nums[count++] = nums2[j++];
+        }
+
+
+        if (count % 2 == 0)
+            return (nums[count / 2 - 1] + nums[count / 2]) / 2;
+        else
+            return nums[count / 2];
     }
 
 
