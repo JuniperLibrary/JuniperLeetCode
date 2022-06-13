@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class demo01 {
     public static void main(String[] args) {
-        test5();
+        test4();
     }
 
     /**
@@ -99,14 +99,25 @@ public class demo01 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入");
         int n = scanner.nextInt();
-        List<List<Integer>> nums = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            List<Integer> integers = new ArrayList<>();
-            integers.add(scanner.nextInt());
-            nums.add(new ArrayList(integers));
+        List<int[]> nums = new ArrayList<>();
+
+        while (scanner.hasNextLine()) {
+            String s = scanner.nextLine();
+            if ("".equals(s)) break;
+            String[] split = s.split("\\s+");
+            int[] ints = Arrays.stream(split).mapToInt(Integer::parseInt).toArray();
+            nums.add(ints);
         }
 
+//        while (scanner.hasNextLine()) {
+//            List<Integer> integers = new ArrayList<>();
+//            integers.add(scanner.nextInt());
+//            integers.add(scanner.nextInt());
+//            integers.add(scanner.nextInt());
+//            integers.add(scanner.nextInt());
+//            nums.add(new ArrayList(integers));
+//        }
 
         System.out.println(n);
         System.out.println(nums);
