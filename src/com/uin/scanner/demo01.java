@@ -100,15 +100,13 @@ public class demo01 {
         System.out.println("请输入");
         int n = scanner.nextInt();
 
-        List<int[]> nums = new ArrayList<>();
+        String[] split = scanner.nextLine().split(" ");
+        String[] s = scanner.nextLine().split(" ");
 
-        while (scanner.hasNextLine()) {
-            String s = scanner.nextLine();
-            if ("".equals(s)) break;
-            String[] split = s.split("\\s+");
-            int[] ints = Arrays.stream(split).mapToInt(Integer::parseInt).toArray();
-            nums.add(ints);
-        }
+        System.out.println(n);
+        System.out.println(split);
+        System.out.println(s);
+
 
 //        while (scanner.hasNextLine()) {
 //            List<Integer> integers = new ArrayList<>();
@@ -118,9 +116,6 @@ public class demo01 {
 //            integers.add(scanner.nextInt());
 //            nums.add(new ArrayList(integers));
 //        }
-
-        System.out.println(n);
-        System.out.println(nums);
     }
 
 }

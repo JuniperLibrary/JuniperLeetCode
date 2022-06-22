@@ -20,7 +20,6 @@ import java.util.Scanner;
  * 第二行有n个互不相同的范围在1到n之间的正整数，代表该序列。
  */
 public class Main {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = 0;
