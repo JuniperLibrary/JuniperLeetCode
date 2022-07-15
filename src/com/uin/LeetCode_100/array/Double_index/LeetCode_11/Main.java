@@ -1,4 +1,4 @@
-package com.uin.array.Double_index;
+package com.uin.LeetCode_100.array.Double_index.LeetCode_11;
 
 /**
  * LeetCode 11 盛最大水的问题

@@ -1,4 +1,4 @@
-package com.uin.LeetCode_100.LeetCode_17;
+package com.uin.LeetCode_100.array.LeetCode_17;
 
 import java.util.*;
 
@@ -43,6 +43,8 @@ public class Main {
      */
     public static void backtrack(List<String> combinations, Map<Character, String> phoneMap,
                                  String str, int index, StringBuffer combination) {
+        if (str.length() == 0)
+            return;
         if (index == str.length()) {
             combinations.add(combination.toString());
         } else {

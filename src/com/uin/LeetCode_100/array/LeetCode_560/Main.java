@@ -1,5 +1,8 @@
 package com.uin.LeetCode_100.array.LeetCode_560;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 /**
  * LeetCode 560 和为k的子数组
  *
@@ -10,8 +13,9 @@ public class Main {
     public static void main(String[] args) {
         int[] nums = {1, 1, 1};
         int k = 2;
-        System.out.println(subArraySum(nums, k));
+        //System.out.println(subArraySum(nums, k));
         //System.out.println(solution(nums, k));
+        System.out.println(solution2(nums, k));
     }
 
     //该数组中和为 k 的连续子数组的个数
@@ -57,6 +61,26 @@ public class Main {
             }
             sum = 0;
         }
+        return count;
+    }
+
+    public static int solution2(int[] nums, int k) {
+
+        if (nums.length == 0) return 0;
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+
+        int count = 0;
+        int preSum = 0;
+        for (int num : nums) {
+            preSum += num;
+            if (map.containsKey(preSum - k)) {
+                count += map.get(preSum - k);
+            }
+            map.put(preSum, map.getOrDefault(preSum, 0) + 1);
+        }
+
         return count;
     }
 }

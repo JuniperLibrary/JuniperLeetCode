@@ -1,4 +1,4 @@
-package com.uin.LeetCode_100.LeetCode_22;
+package com.uin.LeetCode_100.array.LeetCode_22;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +19,16 @@ public class Main {
         return result;
     }
 
+    /**
+     * 深度优先搜索算法 -- 回溯法
+     *
+     * @param left  左括号
+     * @param right 右括号
+     * @param str   临时字符串
+     * @author wanglufei
+     * @date 2022/7/13 12:30 PM
+     */
     public static void dfs(int left, int right, String str) {
-
         if (left == 0 && right == 0) {
             result.add(str);
             return;
