@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+//dfs-深度优先遍历-前序遍历
 public class PrForEach {
     public static void main(String[] args) {
         TreeNode root = new TreeNode();
