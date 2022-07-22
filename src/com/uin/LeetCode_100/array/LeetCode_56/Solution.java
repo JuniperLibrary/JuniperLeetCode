@@ -17,7 +17,7 @@ public class Solution {
                 res.add(curr);
                 curr = intervals[i];
             } else {
-                curr[1] = Math.max(curr[i], intervals[i][1]);
+                curr[1] = Math.max(curr[1], intervals[i][1]);
             }
         }
         res.add(curr);
