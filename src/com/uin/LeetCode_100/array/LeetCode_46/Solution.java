@@ -14,10 +14,12 @@ public class Solution {
     }
 
     /**
+     * 状态变量
+     *
      * @param nums
      * @param len
      * @param depth 表示当前递归了那一层
-     * @param path
+     * @param path  已经选到了那些数
      * @param used
      * @param res
      * @author wanglufei
