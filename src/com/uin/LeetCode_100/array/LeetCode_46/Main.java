@@ -43,7 +43,7 @@ public class Main {
     }
 
     public static void backtrack(int n, List<Integer> output, List<List<Integer>> res, int first) {
-        //所有数都填完了
+        //所有数都填完了 递归的出口
         if (first == n) {
             res.add(new ArrayList<Integer>(output));
         }
