@@ -1,7 +1,5 @@
 package com.uin.dp.decoding;
 
-import java.util.Arrays;
-
 /**
  * 一条包含字母 A-Z 的消息通过以下映射进行了 编码 ：
  * A:1
