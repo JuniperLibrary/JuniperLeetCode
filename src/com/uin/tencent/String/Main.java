@@ -1,7 +1,10 @@
-package com.uin.tencent.StringS;
+package com.uin.tencent.String;
 
 /**
  * 小红的二进制删数字
+ * <p>
+ * 小红拿到了一个二进制字符串 s，她可以删掉其中的一些字符，使得最终该字符串为一个2的幂（即可以表示为  形式的数）。
+ * 小红想知道，自己最少删几个字符可以达成？请你编写一个函数返回这个答案。
  *
  * @author wanglufei
  * @date 2022/7/21 5:52 下午

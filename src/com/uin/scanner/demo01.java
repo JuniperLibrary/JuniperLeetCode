@@ -106,16 +106,6 @@ public class demo01 {
         System.out.println(n);
         System.out.println(split);
         System.out.println(s);
-
-
-//        while (scanner.hasNextLine()) {
-//            List<Integer> integers = new ArrayList<>();
-//            integers.add(scanner.nextInt());
-//            integers.add(scanner.nextInt());
-//            integers.add(scanner.nextInt());
-//            integers.add(scanner.nextInt());
-//            nums.add(new ArrayList(integers));
-//        }
     }
 
 }
