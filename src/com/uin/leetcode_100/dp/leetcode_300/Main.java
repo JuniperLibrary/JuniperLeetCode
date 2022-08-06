@@ -1,22 +1,23 @@
 package com.uin.leetcode_100.dp.leetcode_300;
 
+import java.util.Arrays;
+
 public class Main {
     public int lengthOfLIS(int[] nums) {
         int length = nums.length;
         int[] dp = new int[length];
-        int maxLength = 0;
-        for (int i = 0; i < length; i++) {
-            int len = 1;
-            for (int j = 0; j < i; j++) {
-                if (nums[i] > nums[j]) {
-                    len = Math.max(len, dp[j] + 1);
-                }
+
+        int len = 0;
+        for (int num : nums) {
+            int index = Arrays.binarySearch(dp, 0, len, num);
+            if (index < 0) {
+                index = -(index + 1);
             }
-            dp[i] = len;
-            if (dp[i] > maxLength) {
-                maxLength = dp[i];
+            dp[index] = num;
+            if (index == len) {
+                len++;
             }
         }
-        return maxLength;
+        return len;
     }
 }
