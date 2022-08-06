@@ -28,7 +28,7 @@ public class Main {
         ListNode right = sortList(mid);
         return merge(left, right);
     }
-
+    //合并
     private ListNode merge(ListNode left, ListNode right) {
         ListNode dummy = new ListNode(0);
         ListNode res = dummy;
@@ -44,11 +44,6 @@ public class Main {
         }
         dummy.next = left != null ? left : right;
         return res.next;
-    }
-
-    public static void main(String[] args) {
-        LinkedList<Integer> integers = new LinkedList<>();
-        integers.add(6);
     }
 }
 
