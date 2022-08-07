@@ -24,4 +24,24 @@ public class Main {
         }
         return dp[nums.length - 1];
     }
+
+    public int helper(int[] nums) {
+        int n = nums.length;
+        if (n == 0) return 0;
+
+        //状态容器
+        int[] R = new int[n];
+        int[] NR = new int[n];
+
+        //初始化
+        R[0] = nums[0];
+        NR[0] = 0;
+
+        //状态转移方程
+        for (int i = 1; i < n; i++) {
+            R[i] = nums[i] + NR[i - 1];
+            NR[i] = Math.max(NR[i - 1], R[i - 1]);
+        }
+        return Math.max(NR[n - 1], R[n - 1]);
+    }
 }

@@ -24,13 +24,15 @@ public class Main {
     }
 
     private int[] robSolution(TreeNode root) {
-        if (root == null) return new int[2];
+        int[] res = new int[2];
+        if (root == null) return res;
 
         int[] left = robSolution(root.left);
         int[] right = robSolution(root.right);
-        int[] res = new int[2];
+        //res[0] 不选 不rob
+        //res[1] 选 rob
 
-        res[0] = Math.max(left[0], left[1] + Math.max(right[0], right[1]));
+        res[0] = 0 + Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
         res[1] = root.val + left[0] + right[0];
         return res;
     }
