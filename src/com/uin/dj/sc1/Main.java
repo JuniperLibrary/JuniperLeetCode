@@ -45,35 +45,11 @@ public class Main {
         String s = in.nextLine();
         String[] split = s.split("\\s+");
         int[] nums = Arrays.stream(split).mapToInt(Integer::parseInt).toArray();
-        System.out.println(solution1(nums));
+        System.out.println(solution(nums));
     }
 
-    public static int helper(int[] nums) {
-        if (nums == null || nums.length == 0) return 0;
-        int max = 0;
 
-        //第一次抓的
-        int index = 0;
-        int max1 = Arrays.stream(nums).max().getAsInt();
-        for (int i = 0; i < nums.length; i++) {
-            if (max1 == nums[i]) index = i;
-        }
-
-        //冷却时间恰好飞过两个物品（即飞机冷却时间内无法抓取物品）
-        if (index > nums.length && index + 1 > nums.length) return max1;
-
-        int max2 = 0;
-        index += 1;
-        while (index < nums.length) {
-            for (int i = index; i < nums.length; i++) {
-                max2 = Math.max(max2, nums[i]);
-            }
-        }
-        max = max1 + max2;
-        return max;
-    }
-
-    public static int solution1(int[] nums) {
+    public static int solution(int[] nums) {
         int n = nums.length;
         if (nums == null || n == 0) return 0;
 
