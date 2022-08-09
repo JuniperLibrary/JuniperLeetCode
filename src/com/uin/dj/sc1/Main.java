@@ -68,6 +68,14 @@ public class Main {
         return Math.max(NR[n - 1], R[n - 1]);
     }
 
+    /**
+     * 节约空间
+     *
+     * @param nums
+     * @return int
+     * @author wanglufei
+     * @date 2022/8/8 11:16 AM
+     */
     public static int solution2(int[] nums) {
         int n = nums.length;
         if (n == 0) return 0;
