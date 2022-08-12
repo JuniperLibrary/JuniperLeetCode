@@ -17,7 +17,7 @@ public class Main {
         for (int i = 0; i < n; i++) {
             nums[i] = in.nextInt();
         }
-        System.out.println(helper(nums));
+        System.out.println(helper4(nums));
     }
 
     public static int helper(int[] nums) {
@@ -73,4 +73,29 @@ public class Main {
         return map;
     }
 
+    /**
+     * 投票算法
+     *
+     * @param nums
+     * @return int
+     * @author wanglufei
+     * @date 2022/8/12 11:26 AM
+     */
+    public static int helper4(int[] nums) {
+        int x = 0;
+        int counts = 0;
+        for (int num : nums) {
+            //如果票数和为0，我们假设num元素为众数
+            if (counts == 0) {
+                x = num;
+            }
+            //如果是众数票数+1，否则票数-1
+            if (num == x) {
+                counts++;
+            } else {
+                counts--;
+            }
+        }
+        return x;
+    }
 }
