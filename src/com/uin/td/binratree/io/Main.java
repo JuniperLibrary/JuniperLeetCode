@@ -1,13 +1,19 @@
 package com.uin.td.binratree.io;
 
-import com.uin.leetcode_100.tree.TreeNode;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Stack;
+class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
+    public TreeNode(int val) {
+        this.val = val;
+    }
+}
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
