@@ -163,4 +163,44 @@ public class Main {
         }
         return dp[m][n];
     }
+
+    public static boolean isMatch(String s, String p) {
+        char[] str = s.toCharArray();
+        char[] pa = p.toCharArray();
+        return dp(str, 0, pa, 0);
+    }
+
+    private static boolean dp(char[] s, int i, char[] p, int j) {
+        int m = s.length;
+        int n = p.length;
+        if (j == n) {
+            return i == m;
+        }
+        if (i == m) {
+            if ((n - j) % 2 == 1) {
+                return false;
+            }
+            for (; j + 1 < n; j += 2) {
+                if (p[j + 1] != '*') {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        if (s[i] == p[j] || p[j] == '.') {
+            if (j < n - 1 && p[j + 1] == '*') {
+                return dp(s, i, p, j + 2) || dp(s, i + 1, p, j);
+            } else {
+                return dp(s, i + 1, p, j + 1);
+            }
+        } else {
+            if (j < n - 1 && p[j + 1] == '*') {
+                return dp(s, i, p, j + 2);
+            } else {
+                return false;
+            }
+        }
+
+    }
 }
