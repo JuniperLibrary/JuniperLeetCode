@@ -1,5 +1,11 @@
 package com.uin.search;
 
+/**
+ * 二分搜索
+ *
+ * @author wanglufei
+ * @date 2022/8/12 2:48 PM
+ */
 public class Basic_search {
     public static void main(String[] args) {
 
