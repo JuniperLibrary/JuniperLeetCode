@@ -10,8 +10,34 @@ package com.uin.level.leetcode_392;
  */
 public class Main {
     public boolean isSubsequence(String s, String t) {
-        if (s == null || t == null || s.length() > t.length()) return false;
+        if (s == null || s.isEmpty()) return true;
+        if (s.length() > t.length()) return false;
 
-        return true;
+        char[] ss = s.toCharArray();
+        char[] tt = t.toCharArray();
+
+//        for (int i = 0; i < tt.length; i++) {
+//            for (int j = 0; j < ss.length; j++) {
+//                if (tt[i] == ss[j]) {
+//                    i++;
+//                    j++;
+//                } else {
+//                    j++;
+//                }
+//            }
+//        }
+
+        int i = 0, j = 0;
+        for (; i < ss.length && j < tt.length; ) {
+            if (ss[i] == tt[j]) {
+                i++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        if (i == ss.length) return true;
+
+        return false;
     }
 }
