@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class Main {
     public static void main(String[] args) {
-        helper("egg", "add");
+        System.out.println(helper2("egg", "add"));
     }
 
     public boolean isIsomorphic(String s, String t) {
@@ -54,4 +54,23 @@ public class Main {
         }
         return true;
     }
+
+    public static boolean helper2(String s, String t) {
+        if (s == null || t == null || s.length() != t.length()) return false;
+        int[] sz = new int[128];
+        int[] tz = new int[128];
+        for (int i = 0; i < s.length(); i++) {
+            char a = s.charAt(i);
+            char b = t.charAt(i);
+            if (sz[a] == 0 && tz[b] == 0) {
+                sz[a] = b;
+                tz[b] = a;
+            } else if (sz[a] != b && tz[b] != a) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
 }
