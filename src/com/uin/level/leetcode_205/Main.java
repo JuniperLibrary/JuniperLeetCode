@@ -57,11 +57,15 @@ public class Main {
 
     public static boolean helper2(String s, String t) {
         if (s == null || t == null || s.length() != t.length()) return false;
+
         int[] sz = new int[128];
         int[] tz = new int[128];
+        char[] str = s.toCharArray();
+        char[] atr = t.toCharArray();
+
         for (int i = 0; i < s.length(); i++) {
-            char a = s.charAt(i);
-            char b = t.charAt(i);
+            char a = str[i];
+            char b = atr[i];
             if (sz[a] == 0 && tz[b] == 0) {
                 sz[a] = b;
                 tz[b] = a;
