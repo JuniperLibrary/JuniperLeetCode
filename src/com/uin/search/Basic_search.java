@@ -7,11 +7,7 @@ package com.uin.search;
  * @date 2022/8/12 2:48 PM
  */
 public class Basic_search {
-    public static void main(String[] args) {
-
-    }
-
-    public static int binarySearch(int[] nums, int target) {
+    public  int binarySearch(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
 
@@ -22,9 +18,11 @@ public class Basic_search {
             } else if (nums[mid] < target) {
                 left = mid + 1;
             } else if (nums[mid] > mid) {
-                right = mid + 1;
+                right = mid - 1;
             }
         }
         return -1;
     }
+
+
 }
