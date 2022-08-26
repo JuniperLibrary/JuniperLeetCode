@@ -1,4 +1,4 @@
-package com.uin.dp.didi;
+package com.uin.didi;
 
 /**
  * 序列拆分：
