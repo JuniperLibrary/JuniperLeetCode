@@ -36,6 +36,10 @@ public class demo01 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入");
         String s = scanner.nextLine();
+        /**
+         * "\\s" 表示按照空格、换行、回车等进行切割
+         * "\\s+" 中的"+"表示一个或多个的意思
+         */
         String[] split = s.split("\\s+");
         int[] ints = Arrays.stream(split).mapToInt(Integer::parseInt).toArray();
         System.out.println(Arrays.toString(ints));
