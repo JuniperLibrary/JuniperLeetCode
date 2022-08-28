@@ -1,4 +1,4 @@
-package com.uin.leetcode_100.array.leetcode_198;
+package com.uin.leetcode_100.dp.leetcode_198;
 
 /**
  * @author wanglufei
