@@ -21,10 +21,6 @@ package com.uin.leetcode_100.dfs.leetcode_200;
  * ["0","0","0","1","1"]
  * ]
  * 输出：3
- * <p>
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode.cn/problems/number-of-islands
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class Main {
     int m = 0, n = 0;
@@ -45,7 +41,9 @@ public class Main {
     }
 
     private void dfs(char[][] grid, int i, int j) {
-        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] != '1') ;
+        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] != '1') {
+            return;
+        }
 
         grid[i][j] = '0';
 
