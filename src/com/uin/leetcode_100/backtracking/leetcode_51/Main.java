@@ -1,4 +1,4 @@
-package com.uin.backtracking.leetcode_51;
+package com.uin.leetcode_100.backtracking.leetcode_51;
 
 import java.util.ArrayList;
 import java.util.HashSet;

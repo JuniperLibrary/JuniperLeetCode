@@ -1,4 +1,4 @@
-package com.uin.greedy.CookieDistribute;
+package com.uin.leetcode_100.greedy.CookieDistribute;
 
 /**
  * LeetCode 455 分发饼干

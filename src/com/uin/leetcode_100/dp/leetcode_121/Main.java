@@ -1,4 +1,4 @@
-package com.uin.level1.leetcode_121;
+package com.uin.leetcode_100.dp.leetcode_121;
 
 /**
  * 121. 买卖股票的最佳时机
