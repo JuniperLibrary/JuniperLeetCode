@@ -1,6 +1,7 @@
 package com.uin.tencent.String;
 
 /**
+ * 小红的字符串计数
  * 小红最近在研究 k-size 字符串。
  * 一个字符串为 k-size 指，字符串的连续段共有 k 个。所谓连续段指尽可能多的相同连续字母组成的子串。
  * 例如：aabbbccc为3-size，因为（'aa' 'bb' 'ccc'），ababaab为6-size，因为 （'a' 'b' 'a' 'b' 'aa' 'b'）。
@@ -11,6 +12,8 @@ package com.uin.tencent.String;
  * @date 2022/7/23 2:20 PM
  */
 public class Main1 {
+    private int mod = (int) 1e6;
+
     /**
      * @param n 字符串长度
      * @param k 连续段
@@ -19,16 +22,20 @@ public class Main1 {
      * @date 2022/7/23 2:22 PM
      */
     public int numsOfStrings(int n, int k) {
-        final int MOD = 1000000;
-        int[][] dp = new int[n + 1][k + 1];
-        int m = Math.min(k, n / 2);
-        for (int i = 2; i <= n; i++) dp[i][1] = 26;
-        for (int i = 4; i <= n; i++) { //开始为1时长度为0 为2时固定是26
-            for (int j = 2; j <= m; j++) {
-                dp[i][j] = dp[i - 1][j] + 25 * dp[i - 2][j - 1];
-                dp[i][j] %= MOD;
+        // write code here
+        //k = k * 2;//先分配2k个位置
+        int[][] dp = new int[n + 1][k + 1]; //有i个位置，分为j-size
+        for (int i = 2; i <= n; i++) {
+            dp[i][1] = 1;
+            for (int j = 2; j <= Math.min(i / 2, k); j++) {
+                dp[i][j] = (dp[i][j] + dp[i - 2][j - 1] + dp[i - 1][j]) % mod;
             }
         }
-        return dp[n][k];
+        //System.out.println(dp[n][k]);
+        int res = (dp[n][k] * 26) % mod;
+        for (int i = 1; i < k; i++) {
+            res = (res * 25) % mod;
+        }
+        return (int) res;
     }
 }
