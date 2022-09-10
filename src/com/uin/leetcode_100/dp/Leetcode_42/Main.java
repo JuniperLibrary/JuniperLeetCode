@@ -39,13 +39,19 @@ public class Main {
         int result = 0;
         //边界条件
         int length = height.length;
-        if (length == 0) return 0;
+        if (length == 0) {
+            return 0;
+        }
 
         for (int i = 1; i < length; i++) {
             int left_max = 0;
             int right_max = 0;
-            for (int j = i; j < length; j++) right_max = Math.max(right_max, height[j]);
-            for (int j = i; j >= 0; j--) left_max = Math.max(left_max, height[j]);
+            for (int j = i; j < length; j++) {
+                right_max = Math.max(right_max, height[j]);
+            }
+            for (int j = i; j >= 0; j--) {
+                left_max = Math.max(left_max, height[j]);
+            }
             result += Math.min(left_max, right_max) - height[i];
         }
         return result;
