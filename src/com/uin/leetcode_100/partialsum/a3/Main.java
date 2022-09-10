@@ -1,4 +1,4 @@
-package com.uin.bs_360.a3;
+package com.uin.leetcode_100.partialsum.a3;
 
 import java.util.Scanner;
 
