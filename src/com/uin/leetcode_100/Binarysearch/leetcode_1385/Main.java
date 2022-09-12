@@ -1,4 +1,4 @@
-package com.uin.search.leetcode_1385;
+package com.uin.leetcode_100.Binarysearch.leetcode_1385;
 
 import java.util.Arrays;
 

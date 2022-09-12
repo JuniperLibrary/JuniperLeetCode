@@ -1,4 +1,4 @@
-package com.uin.search.leetcode_374;
+package com.uin.leetcode_100.Binarysearch.leetcode_374;
 
 /**
  * 374. 猜数字大小
