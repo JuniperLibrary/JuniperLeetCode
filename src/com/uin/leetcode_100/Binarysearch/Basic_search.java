@@ -1,4 +1,4 @@
-package com.uin.search;
+package com.uin.leetcode_100.Binarysearch;
 
 /**
  * 二分搜索
@@ -23,6 +23,4 @@ public class Basic_search {
         }
         return -1;
     }
-
-
 }
