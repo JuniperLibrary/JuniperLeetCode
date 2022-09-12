@@ -48,14 +48,17 @@ public class Main {
      */
     public int helper(int[][] intervals) {
         int n = intervals.length;
-
+        // 按 end 升序排序
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[1], b[1]));
 
+        // 至少有一个区间不相交
         int count = 1;
+        // 排序后，第一个区间就是 x
         int end = intervals[0][1];
         for (int[] interval : intervals) {
             int start = interval[0];
             if (start >= end) {
+                // 排序后，第一个区间就是 x
                 count++;
                 end = interval[1];
             }
