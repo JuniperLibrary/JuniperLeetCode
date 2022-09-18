@@ -9,6 +9,7 @@ public class test {
                 "/etc/kubernetes/ssl/certs",
                 "/root"
         );
+        boolean res =false;
         System.out.println("bank:" + pathListToMap(pathList));
     }
 
