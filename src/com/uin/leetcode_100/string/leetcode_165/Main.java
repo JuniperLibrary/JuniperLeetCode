@@ -1,5 +1,7 @@
 package com.uin.leetcode_100.string.leetcode_165;
 
+import java.util.Scanner;
+
 /**
  * 165. 比较版本号
  * 给你两个版本号 version1 和 version2 ，请你比较它们。
@@ -16,9 +18,11 @@ package com.uin.leetcode_100.string.leetcode_165;
  */
 public class Main {
     public static void main(String[] args) {
-        String version1 = "1.01";
-        String version2 = "1.001";
-        System.out.println(compareVersion(version1, version2));
+
+        Scanner in = new Scanner(System.in);
+        String version1 = in.nextLine();
+        String version2 = in.nextLine();
+        System.out.println(solution(version1, version2));
     }
 
     /**
@@ -60,7 +64,7 @@ public class Main {
      * @author wanglufei
      * @date 2022/8/20 6:42 PM
      */
-    public int solution(String version1, String version2) {
+    public static int solution(String version1, String version2) {
         int n = version1.length(), m = version2.length();
         int i = 0, j = 0;
         while (i < n || j < m) {
