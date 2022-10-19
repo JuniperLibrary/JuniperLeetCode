@@ -50,6 +50,15 @@ public class Main {
         return res;
     }
 
+    /**
+     * 我们可以使用滑动窗口解决本题，left和right分别表示满足要求的窗口的左右边界，同时我们使用哈希表存储这个窗口内的数以及出现的次数。
+     * 我们每次将right移动一个位置，并将fruits[right]加入哈希表。如果此时哈希表不满足要求（即哈希表中表现超过两个键值对），
+     * 那么我们需要不断移动left，并将fruits[left],并将fruits[left]从哈希表中移除，直到哈希表要满足要求为止。
+     * 需要注意的是，将fruits[left]从哈希表中移除后，如果fruits[left]在哈希表中的出现次数减少为0，需要将对应的键值对从哈希表中移除。
+     *
+     * @param fruits
+     * @return
+     */
     //滑动窗口
     public static int slidingWindow(int[] fruits) {
         // 存放滑动窗口采摘水果，窗口最大值为2
@@ -58,17 +67,13 @@ public class Main {
         int right = 0;
         int count = 0;
         while (right < fruits.length) {
-
             map.put(fruits[right], map.getOrDefault(fruits[right], 0) + 1);
-
+            // count为水果最大数目，当map大小超过2时，滑窗需前移left;
             while (map.size() > 2) {
-                // count为水果最大数目，当map大小超过2时，滑窗需前移left;
                 map.put(fruits[left], map.get(fruits[left]) - 1);
-
                 if (map.get(fruits[left]) == 0) {
                     map.remove(fruits[left]);
                 }
-
                 left++;
             }
             count = Math.max(count, right - left + 1);
@@ -77,4 +82,8 @@ public class Main {
         return count;
     }
 
+    public static void main(String[] args) {
+        int[] fruits = {0, 1, 2, 2};
+        System.out.println(slidingWindow(fruits));
+    }
 }
