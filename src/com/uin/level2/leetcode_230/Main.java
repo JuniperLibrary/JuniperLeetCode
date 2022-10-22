@@ -28,3 +28,66 @@ public class Main {
         return root.val;
     }
 }
+
+/**
+ * import java.util.*;
+ *
+ * class Main {
+ *
+ *     public int kthSmallest(TreeNode root, int k) {
+ *         Deque<TreeNode> stack = new ArrayDeque<>();
+ *
+ *         while (root != null || !stack.isEmpty()) {
+ *             while (root != null) {
+ *                 stack.push(root);
+ *                 root = root.left;
+ *             }
+ *             root = stack.pop();
+ *             --k;
+ *             if (k == 0) {
+ *                 break;
+ *             }
+ *             root = root.right;
+ *         }
+ *         return root.val;
+ *     }
+ *
+ *     public static void main(String[] args) {
+ *         Scanner scanner = new Scanner(System.in);
+ *         String inputStr = scanner.nextLine();
+ *         String pStr = scanner.nextLine();
+ *         String arrayStr = inputStr.substring(1, inputStr.lastIndexOf("]"));
+ *         String[] arrayStrArray = arrayStr.split(",");
+ *         Integer[] array = new Integer[arrayStrArray.length];
+ *         for (int i = 0; i < arrayStrArray.length; i++) {
+ *             if ("null".equals(arrayStrArray[i])) {
+ *                 continue;
+ *             }
+ *             array[i] = Integer.valueOf(arrayStrArray[i]);
+ *         }
+ *
+ *         TreeNode root = createTree(0, array);
+ *         System.out.println(new Main().kthSmallest(root, Integer.parseInt(pStr)));
+ *     }
+ *
+ *     static TreeNode createTree(int rootIndex, Integer[] values) {
+ *         if (rootIndex >= values.length) {
+ *             return null;
+ *         }
+ *         if (values[rootIndex] == null) {
+ *             return null;
+ *         }
+ *         TreeNode rootNode = new TreeNode();
+ *         rootNode.val = values[rootIndex];
+ *         rootNode.left = createTree(2 * rootIndex + 1, values);
+ *         rootNode.right = createTree(2 * rootIndex + 2, values);
+ *         return rootNode;
+ *     }
+ *
+ *     static class TreeNode {
+ *         TreeNode left;
+ *         TreeNode right;
+ *         int val;
+ *     }
+ * }
+ */
