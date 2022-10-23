@@ -105,4 +105,44 @@ public class Main {
         }
         return left;
     }
+
+    public static int solution(int[] startTime, int[] endTime, int[] profit) {
+        int n = startTime.length;
+        // 储存下标
+        Integer ids[] = new Integer[n];
+        for (int i = 0; i < n; i++) ids[i] = i;
+        // 按endTime照时间顺序排序
+        Arrays.sort(ids, (id1, id2) -> endTime[id1] - endTime[id2]);
+        // System.out.println(
+        //     Arrays.stream(ids)
+        //         .map(String::valueOf)
+        //         .collect(Collectors.joining("-"))
+        // );
+        // max[i](i > 0时)表示所有endTime排名小于等于i的兼职组合的最大收益。max[0]作为一个辅助值。
+        int max[] = new int[n + 1];
+        // 注意下标
+        max[1] = profit[ids[0]];
+        //  System.out.println("0:" + max[0]);
+        for (int i = 2; i <= n; i++) {
+            // 注意下标
+            int id = ids[i - 1];
+            // endTime排名为i的兼职的开始时间
+            int s = startTime[id];
+
+            // 二分查找endtime小于等于s的兼职的数目（也就是endtime大于s的最小值的下标）
+            int l = 0, r = i - 2; //注意下标
+            while (l <= r) {
+                int m = (l + r) / 2;
+                if (endTime[ids[m]] > s) {
+                    r = m - 1;
+                } else {
+                    l = m + 1;
+                }
+            }
+            // 此时，l就是endtime小于等于s的兼职的数目，注意l可以是0，max[0]恰好事0，省了一次if判断（但代价是每次求id时i都要i-1）
+            max[i] = Math.max(max[i - 1], max[l] + profit[id]);
+            // System.out.println(i + "_" + r + "_" + max[i]);
+        }
+        return max[n];
+    }
 }
