@@ -53,42 +53,42 @@ public class Main {
         System.out.println(max_queries);
     }
 
-    public List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries) {
-//        int max_queries = queries.stream().max(Integer::max).get();
-//        int min_queries = queries.stream().max(Integer::min).get();
-//        List<List<Integer>> ans = new ArrayList<>();
-//        List<Integer> level = new ArrayList<>();
-//
-//        List<Integer> nodeList = new ArrayList<Integer>();
-//        // 遍历二叉搜索树
-//        Deque<TreeNode> stack = new ArrayDeque<>();
-//        stack.push(root);
-//        while (!stack.isEmpty()) {
-//            TreeNode node = stack.pop();
-//            nodeList.add(Integer.valueOf(node.val));
-//            if (node.right != null) {
-//                stack.push(node.right);
-//            }
-//            if (node.left != null) {
-//                stack.push(node.left);
-//            }
-//        }
-//
-//        for (Integer re : nodeList) {
-//            for (Integer query : queries) {
-//                if (re <= query && re >= query) {
-//                    level.add(re);
-//                    level.add(re);
-//                    ans.add(level);
-//                } else if (re <= query) {
-//                    level.add(re);
-//                    level.add(-1);
-//                    ans.add(level);
-//                }
-//            }
-//        }
-//        return ans;
-    }
+//    public List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries) {
+////        int max_queries = queries.stream().max(Integer::max).get();
+////        int min_queries = queries.stream().max(Integer::min).get();
+////        List<List<Integer>> ans = new ArrayList<>();
+////        List<Integer> level = new ArrayList<>();
+////
+////        List<Integer> nodeList = new ArrayList<Integer>();
+////        // 遍历二叉搜索树
+////        Deque<TreeNode> stack = new ArrayDeque<>();
+////        stack.push(root);
+////        while (!stack.isEmpty()) {
+////            TreeNode node = stack.pop();
+////            nodeList.add(Integer.valueOf(node.val));
+////            if (node.right != null) {
+////                stack.push(node.right);
+////            }
+////            if (node.left != null) {
+////                stack.push(node.left);
+////            }
+////        }
+////
+////        for (Integer re : nodeList) {
+////            for (Integer query : queries) {
+////                if (re <= query && re >= query) {
+////                    level.add(re);
+////                    level.add(re);
+////                    ans.add(level);
+////                } else if (re <= query) {
+////                    level.add(re);
+////                    level.add(-1);
+////                    ans.add(level);
+////                }
+////            }
+////        }
+////        return ans;
+//    }
 
     public List<List<Integer>> helper(TreeNode root, List<Integer> queries) {
         TreeSet<Integer> treeSet = new TreeSet<>();
