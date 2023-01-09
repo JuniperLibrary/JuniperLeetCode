@@ -53,4 +53,19 @@ public class Main {
         }
         return bestid;
     }
+
+    public int helper(int x, int y, int[][] points) {
+        int ans = -1, mi = 100000;
+        for (int i = 0; i < points.length; i++) {
+            int a = points[i][0], b = points[0][i];
+            if (a == x || b == y) {
+                int d = Math.abs(a - x) + Math.abs(b - y);
+                if (d < mi) {
+                    mi = d;
+                    ans = i;
+                }
+            }
+        }
+        return ans;
+    }
 }
