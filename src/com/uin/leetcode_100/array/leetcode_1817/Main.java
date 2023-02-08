@@ -51,7 +51,7 @@ public class Main {
             map.computeIfAbsent(i, key -> new HashSet<>()).add(t);
         }
         int[] ans = new int[k];
-        for (var ts : map.values()) {
+        for (Set<Integer> ts : map.values()) {
             ++ans[ts.size() - 1];
         }
         return ans;
