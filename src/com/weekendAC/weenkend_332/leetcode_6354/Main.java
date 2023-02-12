@@ -1,9 +1,7 @@
 package com.weekendAC.weenkend_332.leetcode_6354;
 
 /**
- * 6354. 找出数组的串联值
- * 给你一个下标从 0 开始的整数数组 nums 。
- * 现定义两个数字的 串联 是由这两个数值串联起来形成的新数字。
+ * 6354. 找出数组的串联值 给你一个下标从 0 开始的整数数组 nums 。 现定义两个数字的 串联 是由这两个数值串联起来形成的新数字。
  * <p>
  * 例如，15 和 49 的串联是 1549 。 nums 的 串联值 最初等于 0 。执行下述操作直到 nums 变为空：
  * <p>
@@ -43,20 +41,25 @@ public class Main {
       tandem = nums[0];
     }
     int i = 0, j = n - 1;
-    for (int k = 0; k < n; k++) {
-      while (i < j) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(nums[i]);
-        sb.append(nums[j]);
-        i++;
-        j--;
-        tandem += Integer.parseInt(String.valueOf(sb));
-      }
-      if (i == j) {
-        tandem += nums[i];
-        break;
-      }
+    while (i < j) {
+      StringBuilder sb = new StringBuilder();
+      sb.append(nums[i]);
+      sb.append(nums[j]);
+      i++;
+      j--;
+      tandem += Integer.parseInt(String.valueOf(sb));
+    }
+    if (i == j) {
+      tandem += nums[i];
     }
     return tandem;
+  }
+
+  public long solution(int[] nums) {
+    long sum = 0;
+    for (int i = 0, j = nums.length - 1; i <= j; i++, j--) {
+      sum += i < j ? Integer.parseInt("" + nums[i] + nums[j]) : nums[i];
+    }
+    return sum;
   }
 }
