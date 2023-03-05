@@ -77,7 +77,7 @@ package 校招真题2017;
         import java.util.Scanner;
         import java.util.Stack;
 public class 地下迷宫2 {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
         int m=scan.nextInt();
