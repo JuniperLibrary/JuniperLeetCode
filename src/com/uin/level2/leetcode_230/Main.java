@@ -32,7 +32,7 @@ public class Main {
 /**
  * import java.util.*;
  *
- * class Main {
+ * class AuthenticationManager {
  *
  *     public int kthSmallest(TreeNode root, int k) {
  *         Deque<TreeNode> stack = new ArrayDeque<>();
@@ -52,7 +52,7 @@ public class Main {
  *         return root.val;
  *     }
  *
- *     public static void main(String[] args) {
+ *     public static void Main(String[] args) {
  *         Scanner scanner = new Scanner(System.in);
  *         String inputStr = scanner.nextLine();
  *         String pStr = scanner.nextLine();
@@ -67,7 +67,7 @@ public class Main {
  *         }
  *
  *         TreeNode root = createTree(0, array);
- *         System.out.println(new Main().kthSmallest(root, Integer.parseInt(pStr)));
+ *         System.out.println(new AuthenticationManager().kthSmallest(root, Integer.parseInt(pStr)));
  *     }
  *
  *     static TreeNode createTree(int rootIndex, Integer[] values) {

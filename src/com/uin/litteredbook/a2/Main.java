@@ -17,7 +17,7 @@ import java.util.*;
  */
 public class Main {
     /**
-     * public static void main(String[] args) {
+     * public static void Main(String[] args) {
      * Scanner in = new Scanner(System.in);
      * while (in.hasNext()) {
      * String s = in.nextLine();
@@ -64,7 +64,7 @@ public class Main {
      * }
      */
 
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //        Scanner in = new Scanner(System.in);
 //        String str = in.nextLine();
 //        /**

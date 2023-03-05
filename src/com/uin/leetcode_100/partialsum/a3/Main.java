@@ -57,7 +57,7 @@ public class Main {
     }
 
 
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
 //        int[] nums = new int[n];
