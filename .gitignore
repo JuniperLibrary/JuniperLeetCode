@@ -1,0 +1,15 @@
+
+*.class
+*.xml
+.DS_Store
+*.xml
+.idea/modules.xml
+*.xml
+Uin-LeetCode.iml
+.idea/sonarlint/issuestore/0/6/06152c6c06fcf3b82b61f9973d66bebbeb20cab1
+*.pb
+.idea/sonarlint/issuestore/index.pb
+.idea/uiDesigner.xml
+.idea/vcs.xml
+*.xml
+.idea/modules.xml
