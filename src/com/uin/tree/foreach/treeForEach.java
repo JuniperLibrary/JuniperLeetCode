@@ -6,7 +6,7 @@
 // * 二叉树的中序遍历--迭代法
 // */
 //public class treeForEach {
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //
 //        List<Integer> list = new ArrayList<>();
 //        list.add(0, 1);

@@ -6,7 +6,7 @@
 //
 ////dfs-深度优先遍历-前序遍历
 //public class PrForEach {
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //        TreeNode root = new TreeNode();
 //
 //    }
