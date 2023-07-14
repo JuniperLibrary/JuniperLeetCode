@@ -7,7 +7,6 @@ package com.uin.didi;
  * 且染成蓝色的数按顺序构成一个单调递减的序列。
  */
 
-import com.sun.org.apache.xpath.internal.operations.String;
 
 import java.util.ArrayList;
 import java.util.Scanner;
