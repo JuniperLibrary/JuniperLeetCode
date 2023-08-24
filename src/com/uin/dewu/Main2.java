@@ -32,7 +32,8 @@ public class Main2 {
     }
     return left;
   }
-
+// 10
+//样例1中排为1，2，3，2，1即可。样例2中排为10，20即可。
   public static boolean isValid(int[] heights, int n, int maxDiff) {
     int minHeight = heights[0];
     int maxHeight = heights[0];
