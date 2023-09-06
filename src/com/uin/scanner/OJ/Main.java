@@ -16,8 +16,9 @@ public class Main {
             Collections.sort(list);
             int a = 0;
             for (String s : list) {
-                if (a != 0)
+                if (a != 0) {
                     System.out.print(",");
+                }
                 a++;
                 System.out.print(s);
             }
