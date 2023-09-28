@@ -26,7 +26,7 @@ public class Main {
      * <p>
      * 在排除重复元素的情况下，第 nn 次从最小堆中取出的元素即为第 nn 个丑数。
      * <p>
-     * 作者：LeetCode-Solution
+     * 作者：LeetCode-Main3
      * 链接：https://leetcode.cn/problems/ugly-number-ii/solution/chou-shu-ii-by-leetcode-solution-uoqd/
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

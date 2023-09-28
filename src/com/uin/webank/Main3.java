@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Solution {
+public class Main3 {
 
   private Map<String, String> methods;
 
-  public Solution() {
+  public Main3() {
     this.methods = new HashMap<>();
   }
 
@@ -46,7 +46,7 @@ public class Solution {
     Scanner scanner = new Scanner(System.in);
     int numOperations = scanner.nextInt();
     scanner.nextLine();
-    Solution manager = new Solution();
+    Main3 manager = new Main3();
     for (int i = 0; i < numOperations; i++) {
       int op = scanner.nextInt();
       scanner.nextLine(); // Consume newline
@@ -58,8 +58,8 @@ public class Solution {
       } else if (op == 2) {
         String[] parts = operation.split("\\(");
         String methodName = parts[0].trim();
-        String args = parts[1].trim().replaceAll("\\)", "");
-        String result = manager.callMethod(methodName, args);
+        String args1 = parts[1].trim().replaceAll("\\)", "");
+        String result = manager.callMethod(methodName, args1);
         System.out.println(result);
       }
     }
