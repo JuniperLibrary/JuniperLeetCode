@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_9;
+package com.uin.level1.leetcode_9;
 
 /**
  * 9.回文数

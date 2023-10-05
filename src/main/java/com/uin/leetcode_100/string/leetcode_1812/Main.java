@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1812;
+package com.uin.leetcode_100.string.leetcode_1812;
 
 /**
  * 1812. 判断国际象棋棋盘中一个格子的颜色

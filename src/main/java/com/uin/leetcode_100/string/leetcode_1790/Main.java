@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1790;
+package com.uin.leetcode_100.string.leetcode_1790;
 
 /**
  * 1790. 仅执行一次字符串交换能否使两个字符串相等

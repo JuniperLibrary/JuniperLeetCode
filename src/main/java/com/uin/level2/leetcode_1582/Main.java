@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_1582;
+package com.uin.level2.leetcode_1582;
 
 /**
  * 1582. 二进制矩阵中的特殊位置

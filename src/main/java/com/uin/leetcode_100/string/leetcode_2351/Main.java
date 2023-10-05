@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_2351;
+package com.uin.leetcode_100.string.leetcode_2351;
 
 import java.util.HashSet;
 import java.util.Set;

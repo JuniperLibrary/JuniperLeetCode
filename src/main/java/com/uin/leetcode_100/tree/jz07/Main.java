@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.tree.jz07;
+package com.uin.leetcode_100.tree.jz07;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

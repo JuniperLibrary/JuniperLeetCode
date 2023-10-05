@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.weisolution.leetcode_1803;
+package com.uin.leetcode_100.weisolution.leetcode_1803;
 
 import java.util.HashMap;
 import java.util.Map;

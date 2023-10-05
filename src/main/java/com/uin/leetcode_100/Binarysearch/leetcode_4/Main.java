@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_4;
+package com.uin.leetcode_100.Binarysearch.leetcode_4;
 
 /**
  * 4. 寻找两个正序数组的中位数

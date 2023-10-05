@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_2293;
+package com.uin.leetcode_100.array.leetcode_2293;
 
 /**
  * 2293. 极大极小游戏

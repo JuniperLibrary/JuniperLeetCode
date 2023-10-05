@@ -1,4 +1,4 @@
-package main.java.com.uin.CSDN.t6.a1;
+package com.uin.CSDN.t6.a1;
 
 import java.util.ArrayList;
 import java.util.HashMap;

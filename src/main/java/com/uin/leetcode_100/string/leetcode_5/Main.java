@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_5;
+package com.uin.leetcode_100.string.leetcode_5;
 
 /**
  * leetcode 5 最长回文子串

@@ -1,4 +1,4 @@
-package main.java.com.uin.litteredbook.a1;
+package com.uin.litteredbook.a1;
 
 import java.util.Scanner;
 

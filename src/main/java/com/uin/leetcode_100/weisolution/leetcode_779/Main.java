@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.weisolution.leetcode_779;
+package com.uin.leetcode_100.weisolution.leetcode_779;
 
 
 /**

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.leetcode_567;
+package com.uin.leetcode_100.slidingwindow.leetcode_567;
 
 import java.util.Arrays;
 

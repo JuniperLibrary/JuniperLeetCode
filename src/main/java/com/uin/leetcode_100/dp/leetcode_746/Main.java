@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_746;
+package com.uin.leetcode_100.dp.leetcode_746;
 
 /**
  * 746. 使用最小花费爬楼梯

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.leetcode_904;
+package com.uin.leetcode_100.slidingwindow.leetcode_904;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_844;
+package com.uin.level1.leetcode_844;
 
 /**
  * 844. 比较含退格的字符串

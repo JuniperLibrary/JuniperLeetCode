@@ -1,4 +1,4 @@
-package main.java.com.uin.yuewenjituan.a2;
+package com.uin.yuewenjituan.a2;
 
 import java.util.Arrays;
 

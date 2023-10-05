@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.String;
+package com.uin.tencent.String;
 
 /**
  * 小红的字符串计数

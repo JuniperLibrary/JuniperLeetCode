@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_320.leetcode_6244;
+package com.uin.weekendAC.weenkend_320.leetcode_6244;
 
 /**
  * 6244. 完美分割的方案数

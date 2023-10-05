@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1781;
+package com.uin.leetcode_100.string.leetcode_1781;
 
 /**
  * 1781. 所有子字符串美丽值之和

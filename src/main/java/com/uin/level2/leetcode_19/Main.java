@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_19;
+package com.uin.level2.leetcode_19;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 19. 删除链表的倒数第 N 个结点

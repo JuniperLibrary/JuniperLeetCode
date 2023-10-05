@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_321.leetcode_6245;
+package com.uin.weekendAC.weenkend_321.leetcode_6245;
 
 /**
  * 6245.找出中枢整数

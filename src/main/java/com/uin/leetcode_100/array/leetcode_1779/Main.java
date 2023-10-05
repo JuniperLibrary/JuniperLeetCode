@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_1779;
+package com.uin.leetcode_100.array.leetcode_1779;
 
 /**
  * 1779. 找到最近的有相同 X 或 Y 坐标的点

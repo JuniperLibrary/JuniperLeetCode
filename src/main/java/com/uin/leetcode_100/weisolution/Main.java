@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.weisolution;
+package com.uin.leetcode_100.weisolution;
 
 /**
  * 位运算

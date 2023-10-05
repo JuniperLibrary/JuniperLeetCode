@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_234;
+package com.uin.level2.leetcode_234;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package main.java.com.uin.meituan.ms01_01;
+package com.uin.meituan.ms01_01;
 
 /**
  * 面试题 01.01. 判定字符是否唯一

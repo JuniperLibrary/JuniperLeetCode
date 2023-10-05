@@ -1,6 +1,6 @@
-package main.java.com.uin.level1.leetcode_142;
+package com.uin.level1.leetcode_142;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 142. 环形链表 II

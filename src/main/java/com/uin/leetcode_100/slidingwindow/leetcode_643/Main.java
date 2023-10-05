@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.leetcode_643;
+package com.uin.leetcode_100.slidingwindow.leetcode_643;
 
 /**
  * 643. 子数组最大平均数 I

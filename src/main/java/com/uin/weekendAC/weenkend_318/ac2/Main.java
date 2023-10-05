@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_318.ac2;
+package com.uin.weekendAC.weenkend_318.ac2;
 
 import java.util.HashSet;
 

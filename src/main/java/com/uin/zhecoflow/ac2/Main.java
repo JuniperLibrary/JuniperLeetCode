@@ -1,4 +1,4 @@
-package main.java.com.uin.zhecoflow.ac2;
+package com.uin.zhecoflow.ac2;
 /**
  * 重排字符串
  * 只有小写字母组成的字符串，只改变顺序，不改变数量，重排后小红想让新字符串不包含任意两个相同的相邻字母

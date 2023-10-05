@@ -1,4 +1,4 @@
-package main.java.com.uin.feibu.leetcode_1746;
+package com.uin.feibu.leetcode_1746;
 
 /**
  * LeetCode 1746. 经过一次操作后的最大子数组和

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_777;
+package com.uin.leetcode_100.string.leetcode_777;
 
 /**
  * 777. 在LR字符串中交换相邻字符

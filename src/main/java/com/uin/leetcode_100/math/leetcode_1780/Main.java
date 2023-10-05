@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.math.leetcode_1780;
+package com.uin.leetcode_100.math.leetcode_1780;
 
 /**
  * 1780.判断一个数字是否可以表示成三的幂的和

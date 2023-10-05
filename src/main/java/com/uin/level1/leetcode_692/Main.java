@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_692;
+package com.uin.level1.leetcode_692;
 
 import java.util.*;
 

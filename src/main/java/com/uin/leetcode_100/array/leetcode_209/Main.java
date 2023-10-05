@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_209;
+package com.uin.leetcode_100.array.leetcode_209;
 
 /**
  * 209. 长度最小的子数组

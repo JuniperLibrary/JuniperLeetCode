@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_45;
+package com.uin.leetcode_100.greedy.leetcode_45;
 
 /**
  * 45. 跳跃游戏 II

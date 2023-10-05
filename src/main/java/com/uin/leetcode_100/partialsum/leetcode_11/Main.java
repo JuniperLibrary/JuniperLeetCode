@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.partialsum.leetcode_11;
+package com.uin.leetcode_100.partialsum.leetcode_11;
 
 /**
  * 11. 盛最多水的容器

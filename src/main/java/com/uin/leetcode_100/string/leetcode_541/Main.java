@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_541;
+package com.uin.leetcode_100.string.leetcode_541;
 
 /**
  * 541. 反转字符串 II

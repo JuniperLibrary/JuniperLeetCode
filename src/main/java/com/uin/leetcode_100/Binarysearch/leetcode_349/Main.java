@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_349;
+package com.uin.leetcode_100.Binarysearch.leetcode_349;
 
 import java.util.Arrays;
 import java.util.HashSet;

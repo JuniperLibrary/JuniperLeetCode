@@ -1,4 +1,4 @@
-package main.java.com.uin.tuhu21.b1;
+package com.uin.tuhu21.b1;
 
 import java.util.Arrays;
 

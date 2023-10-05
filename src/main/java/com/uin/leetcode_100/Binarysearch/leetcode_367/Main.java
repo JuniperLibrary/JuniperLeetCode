@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_367;
+package com.uin.leetcode_100.Binarysearch.leetcode_367;
 
 /**
  * 367. 有效的完全平方数

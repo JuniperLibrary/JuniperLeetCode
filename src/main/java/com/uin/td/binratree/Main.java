@@ -1,4 +1,4 @@
-package main.java.com.uin.td.binratree;
+package com.uin.td.binratree;
 /**
  * 在二叉树中找到一个节点的后继节点
  *

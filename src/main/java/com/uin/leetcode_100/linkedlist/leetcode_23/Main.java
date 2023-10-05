@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.linkedlist.leetcode_23;
+package com.uin.leetcode_100.linkedlist.leetcode_23;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 23. 合并K个升序链表

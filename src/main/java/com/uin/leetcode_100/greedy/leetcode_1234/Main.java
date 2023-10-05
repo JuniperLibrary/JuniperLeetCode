@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1234;
+package com.uin.leetcode_100.greedy.leetcode_1234;
 
 /**
  * 1234. 替换子串得到平衡字符串 有一个只含有'Q', 'W', 'E','R'四种字符，且长度为 n的字符串。

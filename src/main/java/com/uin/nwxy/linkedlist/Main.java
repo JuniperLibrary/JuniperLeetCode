@@ -1,7 +1,7 @@
-package main.java.com.uin.nwxy.linkedlist;
+package com.uin.nwxy.linkedlist;
 
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 对单链表进行排序

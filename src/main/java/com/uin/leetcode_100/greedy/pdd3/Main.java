@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.pdd3;
+package com.uin.leetcode_100.greedy.pdd3;
 
 import java.util.Arrays;
 import java.util.Scanner;

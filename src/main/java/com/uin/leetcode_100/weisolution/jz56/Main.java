@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.weisolution.jz56;
+package com.uin.leetcode_100.weisolution.jz56;
 
 /**
  * 剑指 Offer 56 - I. 数组中数字出现的次数

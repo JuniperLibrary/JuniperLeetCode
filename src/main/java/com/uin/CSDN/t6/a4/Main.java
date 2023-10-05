@@ -1,4 +1,4 @@
-package main.java.com.uin.CSDN.t6.a4;
+package com.uin.CSDN.t6.a4;
 
 import java.util.ArrayList;
 /**

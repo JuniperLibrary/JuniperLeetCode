@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.queue.leetcode_1801;
+package com.uin.leetcode_100.queue.leetcode_1801;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

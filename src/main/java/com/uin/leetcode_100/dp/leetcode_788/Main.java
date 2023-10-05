@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_788;
+package com.uin.leetcode_100.dp.leetcode_788;
 
 /**
  * 788 旋转数字

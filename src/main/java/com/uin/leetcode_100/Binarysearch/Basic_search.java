@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch;
+package com.uin.leetcode_100.Binarysearch;
 
 /**
  * 二分搜索

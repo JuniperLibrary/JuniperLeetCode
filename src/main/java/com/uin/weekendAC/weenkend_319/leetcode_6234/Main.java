@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_319.leetcode_6234;
+package com.uin.weekendAC.weenkend_319.leetcode_6234;
 
 import java.math.BigInteger;
 

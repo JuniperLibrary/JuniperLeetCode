@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_1800;
+package com.uin.leetcode_100.array.leetcode_1800;
 
 /**
  * 1800. 最大升序子数组和

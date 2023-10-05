@@ -1,6 +1,5 @@
-package main.java.com.uin.jd.a2;
+package com.uin.jd.a2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

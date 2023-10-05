@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_852;
+package com.uin.leetcode_100.Binarysearch.leetcode_852;
 
 /**
  * 852. 山脉数组的峰顶索引

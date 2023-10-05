@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_324.leetcode_6265;
+package com.uin.weekendAC.weenkend_324.leetcode_6265;
 
 /**
  * 2506. 统计相似字符串对的数目

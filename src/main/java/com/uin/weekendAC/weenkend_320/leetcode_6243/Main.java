@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_320.leetcode_6243;
+package com.uin.weekendAC.weenkend_320.leetcode_6243;
 
 import java.util.ArrayList;
 import java.util.List;

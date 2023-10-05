@@ -1,4 +1,4 @@
-package main.java.com.uin.kdxf.football;
+package com.uin.kdxf.football;
 
 import java.util.Scanner;
 

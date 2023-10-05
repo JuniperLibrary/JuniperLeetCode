@@ -1,4 +1,4 @@
-package main.java.com.uin.litteredbook.a2;
+package com.uin.litteredbook.a2;
 
 import java.util.*;
 

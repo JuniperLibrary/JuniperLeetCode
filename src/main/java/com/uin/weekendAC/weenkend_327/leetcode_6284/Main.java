@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_327.leetcode_6284;
+package com.uin.weekendAC.weenkend_327.leetcode_6284;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_437;
+package com.uin.level2.leetcode_437;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

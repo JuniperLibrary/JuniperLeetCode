@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_7;
+package com.uin.leetcode_100.string.leetcode_7;
 
 /**
  * 7.整数反转

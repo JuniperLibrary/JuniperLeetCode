@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_258;
+package com.uin.level2.leetcode_258;
 
 /**
  * 258. 各位相加

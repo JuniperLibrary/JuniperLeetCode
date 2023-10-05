@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 import java.util.ArrayList;
 import java.util.List;

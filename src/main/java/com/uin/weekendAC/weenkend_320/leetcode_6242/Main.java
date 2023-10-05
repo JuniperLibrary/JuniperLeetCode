@@ -1,6 +1,6 @@
-package main.java.com.uin.weekendAC.weenkend_320.leetcode_6242;
+package com.uin.weekendAC.weenkend_320.leetcode_6242;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.*;
 

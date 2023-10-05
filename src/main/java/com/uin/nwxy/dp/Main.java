@@ -1,4 +1,4 @@
-package main.java.com.uin.nwxy.dp;
+package com.uin.nwxy.dp;
 
 public class Main {
     public int fib(int n) {

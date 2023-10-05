@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_54;
+package com.uin.level2.leetcode_54;
 
 import java.util.ArrayList;
 import java.util.List;

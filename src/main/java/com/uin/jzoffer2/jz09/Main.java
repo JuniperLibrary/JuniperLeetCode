@@ -1,4 +1,4 @@
-package main.java.com.uin.jzoffer2.jz09;
+package com.uin.jzoffer2.jz09;
 
 import java.util.LinkedList;
 /**

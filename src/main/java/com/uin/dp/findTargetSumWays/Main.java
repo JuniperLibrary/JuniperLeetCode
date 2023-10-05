@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.findTargetSumWays;
+package com.uin.dp.findTargetSumWays;
 
 /**
  * 给你一个整数数组 nums 和一个整数 target 。

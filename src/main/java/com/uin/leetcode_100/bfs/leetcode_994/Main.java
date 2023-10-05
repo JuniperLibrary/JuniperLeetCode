@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.bfs.leetcode_994;
+package com.uin.leetcode_100.bfs.leetcode_994;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;

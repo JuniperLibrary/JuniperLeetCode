@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_1664;
+package com.uin.leetcode_100.dp.leetcode_1664;
 
 /**
  * 1664. 生成平衡数组的方案数

@@ -1,4 +1,4 @@
-package main.java.com.uin;
+package com.uin;
 
 import java.util.*;
 

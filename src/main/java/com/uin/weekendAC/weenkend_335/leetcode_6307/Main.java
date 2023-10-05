@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_335.leetcode_6307;
+package com.uin.weekendAC.weenkend_335.leetcode_6307;
 
 /**
  * LeetCode 6307.递枕头

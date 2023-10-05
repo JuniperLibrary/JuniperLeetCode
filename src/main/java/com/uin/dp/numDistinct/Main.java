@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.numDistinct;
+package com.uin.dp.numDistinct;
 
 /**
  * 给定一个字符串s和一个字符串t，计算在s的子序列中t出现的个数

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.linkedlist;
+package com.uin.leetcode_100.linkedlist;
 
 /**
  * @author wanglufei

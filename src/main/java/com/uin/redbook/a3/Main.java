@@ -1,4 +1,4 @@
-package main.java.com.uin.redbook.a3;
+package com.uin.redbook.a3;
 
 /**
  * 一对一

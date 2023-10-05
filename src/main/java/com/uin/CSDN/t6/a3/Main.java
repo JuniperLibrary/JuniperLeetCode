@@ -1,4 +1,4 @@
-package main.java.com.uin.CSDN.t6.a3;
+package com.uin.CSDN.t6.a3;
 
 
 import java.util.HashMap;

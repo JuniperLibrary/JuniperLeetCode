@@ -1,4 +1,4 @@
-package main.java.com.uin.redbook.a1;
+package com.uin.redbook.a1;
 
 import java.util.*;
 

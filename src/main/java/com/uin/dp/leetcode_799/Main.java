@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.leetcode_799;
+package com.uin.dp.leetcode_799;
 
 /**
  * 799. 香槟塔

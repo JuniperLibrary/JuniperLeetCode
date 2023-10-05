@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_667;
+package com.uin.level2.leetcode_667;
 
 /**
  * 667.优美的排列 II

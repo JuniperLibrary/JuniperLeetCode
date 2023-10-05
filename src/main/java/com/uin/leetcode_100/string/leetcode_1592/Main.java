@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1592;
+package com.uin.leetcode_100.string.leetcode_1592;
 
 /**
  * 1592. 重新排列单词间的空格

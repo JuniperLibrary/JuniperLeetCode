@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_124;
+package com.uin.level2.leetcode_124;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 124. 二叉树中的最大路径和

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_1905;
+package com.uin.leetcode_100.dfs.leetcode_1905;
 
 /**
  * 1905. 统计子岛屿

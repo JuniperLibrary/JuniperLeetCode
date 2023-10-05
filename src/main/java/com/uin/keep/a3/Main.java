@@ -1,4 +1,4 @@
-package main.java.com.uin.keep.a3;
+package com.uin.keep.a3;
 /**
  * 2023届Keep秋招后端卷1-数据整理
  */

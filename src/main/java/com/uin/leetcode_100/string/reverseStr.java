@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string;
+package com.uin.leetcode_100.string;
 
 import java.util.Scanner;
 

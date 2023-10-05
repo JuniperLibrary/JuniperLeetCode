@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.int01_09;
+package com.uin.leetcode_100.string.int01_09;
 
 /**
  * 面试题 01.09. 字符串轮转

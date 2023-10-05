@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_28;
+package com.uin.leetcode_100.string.leetcode_28;
 
 /**
  * 28. 找出字符串中第一个匹配项的下标

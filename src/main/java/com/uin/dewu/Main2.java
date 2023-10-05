@@ -1,4 +1,4 @@
-package main.java.com.uin.dewu;
+package com.uin.dewu;
 
 import java.util.*;
 

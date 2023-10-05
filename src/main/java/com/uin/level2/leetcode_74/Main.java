@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_74;
+package com.uin.level2.leetcode_74;
 
 /**
  * 74. 搜索二维矩阵

@@ -1,4 +1,4 @@
-package main.java.com.uin.jzoffer2.jz03;
+package com.uin.jzoffer2.jz03;
 
 import java.util.HashSet;
 

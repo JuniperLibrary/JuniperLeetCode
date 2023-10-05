@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 /**
  * 21.合并两个有序的链表

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_1035;
+package com.uin.leetcode_100.dp.leetcode_1035;
 
 /**
  * 1035.不相交的线

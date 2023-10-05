@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.jz57;
+package com.uin.leetcode_100.slidingwindow.jz57;
 
 import java.util.ArrayList;
 import java.util.List;

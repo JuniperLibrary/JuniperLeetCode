@@ -1,4 +1,4 @@
-package main.java.com.uin.yuewenjituan.a1;
+package com.uin.yuewenjituan.a1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

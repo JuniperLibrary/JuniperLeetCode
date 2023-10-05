@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.Double_index.leetcode_283;
+package com.uin.leetcode_100.array.Double_index.leetcode_283;
 
 /**
  * 283.将数字零移动到数组末尾

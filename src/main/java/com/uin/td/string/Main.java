@@ -1,4 +1,4 @@
-package main.java.com.uin.td.string;
+package com.uin.td.string;
 /**
  * 正则表达式匹配
  * 实现函数用来匹配包括'.'和'*'的正则表达式。

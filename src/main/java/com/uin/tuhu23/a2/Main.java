@@ -1,4 +1,4 @@
-package main.java.com.uin.tuhu23.a2;
+package com.uin.tuhu23.a2;
 
 import java.util.Arrays;
 

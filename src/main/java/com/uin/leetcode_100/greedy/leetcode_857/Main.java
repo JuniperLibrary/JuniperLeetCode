@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_857;
+package com.uin.leetcode_100.greedy.leetcode_857;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

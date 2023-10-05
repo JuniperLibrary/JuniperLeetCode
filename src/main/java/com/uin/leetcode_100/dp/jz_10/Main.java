@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.jz_10;
+package com.uin.leetcode_100.dp.jz_10;
 
 /**
  * 剑指 Offer 10- II. 青蛙跳台阶问题

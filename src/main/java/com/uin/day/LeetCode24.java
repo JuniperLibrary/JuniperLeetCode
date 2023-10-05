@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 /**
  * 24.两两交换链表中的节点

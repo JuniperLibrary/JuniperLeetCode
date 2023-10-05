@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TME21.a1;
+package com.uin.tencent.TME21.a1;
 
 import java.util.*;
 

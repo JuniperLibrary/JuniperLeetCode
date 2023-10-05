@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_318.ac1;
+package com.uin.weekendAC.weenkend_318.ac1;
 
 /**
  * 6229. 对数组执行操作

@@ -1,4 +1,4 @@
-package main.java.com.uin.glodon.a2;
+package com.uin.glodon.a2;
 
 import java.util.Arrays;
 import java.util.Scanner;

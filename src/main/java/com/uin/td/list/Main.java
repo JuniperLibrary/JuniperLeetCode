@@ -1,4 +1,4 @@
-package main.java.com.uin.td.list;
+package com.uin.td.list;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_200;
+package com.uin.leetcode_100.dfs.leetcode_200;
 
 /**
  * 200. 岛屿数量

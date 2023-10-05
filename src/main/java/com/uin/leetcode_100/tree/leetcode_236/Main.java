@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.tree.leetcode_236;
+package com.uin.leetcode_100.tree.leetcode_236;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 236. 二叉树的最近公共祖先

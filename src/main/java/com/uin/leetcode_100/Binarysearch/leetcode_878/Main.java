@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_878;
+package com.uin.leetcode_100.Binarysearch.leetcode_878;
 
 /**
  * 878. 第 N 个神奇数字

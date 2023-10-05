@@ -1,4 +1,4 @@
-package main.java.com.uin.bs_360.a2;
+package com.uin.bs_360.a2;
 
 /**
  * 老张修路

@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.linkedlist.jz_24;
+package com.uin.leetcode_100.linkedlist.jz_24;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 剑指 Offer 24. 反转链表

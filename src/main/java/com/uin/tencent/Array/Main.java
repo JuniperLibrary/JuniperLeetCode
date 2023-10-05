@@ -1,7 +1,6 @@
-package main.java.com.uin.tencent.Array;
+package com.uin.tencent.Array;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 

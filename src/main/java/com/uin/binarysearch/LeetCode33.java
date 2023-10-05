@@ -1,4 +1,4 @@
-package main.java.com.uin.binarysearch;
+package com.uin.binarysearch;
 
 /**
  * 33. 搜索旋转排序数组

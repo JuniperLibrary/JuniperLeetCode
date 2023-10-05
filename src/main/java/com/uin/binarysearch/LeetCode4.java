@@ -1,4 +1,4 @@
-package main.java.com.uin.binarysearch;
+package com.uin.binarysearch;
 
 /**
  * 4.寻找两个正序数的中位数

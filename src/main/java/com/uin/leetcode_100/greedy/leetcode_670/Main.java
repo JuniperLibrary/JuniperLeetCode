@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_670;
+package com.uin.leetcode_100.greedy.leetcode_670;
 
 /**
  * 670. 最大交换

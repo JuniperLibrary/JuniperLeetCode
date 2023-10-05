@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.linkedlist.leetcode_21;
+package com.uin.leetcode_100.linkedlist.leetcode_21;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 21. 合并两个有序链表

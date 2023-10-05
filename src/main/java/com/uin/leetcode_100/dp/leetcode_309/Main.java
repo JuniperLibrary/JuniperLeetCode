@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_309;
+package com.uin.leetcode_100.dp.leetcode_309;
 
 public class Main {
     /**

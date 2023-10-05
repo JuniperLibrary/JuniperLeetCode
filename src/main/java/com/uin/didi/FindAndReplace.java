@@ -1,4 +1,4 @@
-package main.java.com.uin.didi;
+package com.uin.didi;
 
 /**
  * Bob有一个文本文件。

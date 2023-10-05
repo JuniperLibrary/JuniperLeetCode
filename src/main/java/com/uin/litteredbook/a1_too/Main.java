@@ -1,4 +1,4 @@
-package main.java.com.uin.litteredbook.a1_too;
+package com.uin.litteredbook.a1_too;
 
 /**
  * 面试题 08.11. 硬币

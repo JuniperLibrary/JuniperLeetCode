@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1684;
+package com.uin.leetcode_100.string.leetcode_1684;
 
 /**
  * 1684. 统计一致字符串的数目

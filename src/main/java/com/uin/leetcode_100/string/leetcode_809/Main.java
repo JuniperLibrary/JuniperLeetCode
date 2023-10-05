@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_809;
+package com.uin.leetcode_100.string.leetcode_809;
 
 /**
  * 809. 情感丰富的文字

@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TME21.a2;
+package com.uin.tencent.TME21.a2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

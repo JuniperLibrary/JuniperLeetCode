@@ -1,4 +1,4 @@
-package main.java.com.uin.guanlianda;
+package com.uin.guanlianda;
 
 import java.util.Scanner;
 

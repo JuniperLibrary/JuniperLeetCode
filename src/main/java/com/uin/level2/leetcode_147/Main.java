@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_147;
+package com.uin.level2.leetcode_147;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 147. 对链表进行插入排序

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.jz42;
+package com.uin.leetcode_100.dp.jz42;
 
 /**
  * 剑指 Offer 42. 连续子数组的最大和

@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.lengthOfLongestSubstring;
+package com.uin.dp.lengthOfLongestSubstring;
 
 import java.util.HashSet;
 import java.util.Set;

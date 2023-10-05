@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.tree.leetcode_543;
+package com.uin.leetcode_100.tree.leetcode_543;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 public class Main {
     public int diameterOfBinaryTree(TreeNode root) {

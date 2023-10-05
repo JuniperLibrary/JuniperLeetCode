@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_1046;
+package com.uin.level1.leetcode_1046;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

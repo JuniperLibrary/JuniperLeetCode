@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.leetcode_1652;
+package com.uin.leetcode_100.slidingwindow.leetcode_1652;
 
 /**
  * 1652. 拆炸弹

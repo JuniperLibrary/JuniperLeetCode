@@ -1,4 +1,4 @@
-package main.java.com.uin.map.foreach;
+package com.uin.map.foreach;
 
 import java.util.HashMap;
 import java.util.Iterator;

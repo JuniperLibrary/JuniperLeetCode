@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_773;
+package com.uin.leetcode_100.dfs.leetcode_773;
 
 /**
  * 733. 图像渲染

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_769;
+package com.uin.leetcode_100.array.leetcode_769;
 
 /**
  * 769.最多能完成排序的块

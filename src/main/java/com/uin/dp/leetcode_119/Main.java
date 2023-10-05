@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.leetcode_119;
+package com.uin.dp.leetcode_119;
 
 import java.util.ArrayList;
 import java.util.List;

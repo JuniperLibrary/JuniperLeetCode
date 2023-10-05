@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.maxProfit;
+package com.uin.dp.maxProfit;
 
 public class Main1 {
 

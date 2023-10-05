@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_329.leetcode_6298;
+package com.uin.weekendAC.weenkend_329.leetcode_6298;
 
 /**
  * 6298. 执行逐位运算使字符串相等

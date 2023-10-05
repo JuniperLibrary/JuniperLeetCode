@@ -1,6 +1,6 @@
-package main.java.com.uin.jzoffer2.jz53;
+package com.uin.jzoffer2.jz53;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.Stack;
 //剑指 Offer II 053. 二叉搜索树中的中序后继

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_198;
+package com.uin.leetcode_100.dp.leetcode_198;
 
 /**
  * 198. 打家劫舍

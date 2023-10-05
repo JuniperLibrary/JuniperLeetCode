@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_135;
+package com.uin.leetcode_100.greedy.leetcode_135;
 
 /**
  * 135 分发糖果

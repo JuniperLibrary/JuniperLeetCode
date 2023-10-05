@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.partialsum.leetcode_1732;
+package com.uin.leetcode_100.partialsum.leetcode_1732;
 
 /**
  * 1732. 找到最高海拔

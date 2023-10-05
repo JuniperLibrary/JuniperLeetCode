@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_53;
+package com.uin.leetcode_100.dp.leetcode_53;
 
 /**
  * 53. 最大子数组和

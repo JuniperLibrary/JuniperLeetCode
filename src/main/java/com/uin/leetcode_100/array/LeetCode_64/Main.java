@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_64;
+package com.uin.leetcode_100.array.LeetCode_64;
 
 //LeetCode 64 最小路径和
 public class Main {

@@ -1,4 +1,4 @@
-package main.java.com.uin.meituan.leetcode_455;
+package com.uin.meituan.leetcode_455;
 
 import java.util.Arrays;
 

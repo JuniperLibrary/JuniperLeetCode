@@ -1,4 +1,4 @@
-package main.java.com.uin.kunlunw.ac1;
+package com.uin.kunlunw.ac1;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

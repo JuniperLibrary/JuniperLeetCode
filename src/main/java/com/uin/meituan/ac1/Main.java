@@ -1,4 +1,4 @@
-package main.java.com.uin.meituan.ac1;
+package com.uin.meituan.ac1;
 
 /**
  * 求数列的和

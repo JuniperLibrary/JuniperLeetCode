@@ -1,4 +1,4 @@
-package main.java.com.uin.scanner;
+package com.uin.scanner;
 
 
 import java.util.ArrayList;

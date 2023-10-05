@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_2105;
+package com.uin.leetcode_100.array.leetcode_2105;
 
 /**
  * leetcode 2105. 给植物浇水 II

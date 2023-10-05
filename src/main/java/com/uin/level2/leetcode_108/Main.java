@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_108;
+package com.uin.level2.leetcode_108;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 108. 将有序数组转换为二叉搜索树

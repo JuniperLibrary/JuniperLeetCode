@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.weisolution.inv_17_19;
+package com.uin.leetcode_100.weisolution.inv_17_19;
 
 /**
  * 面试题 17.19. 消失的两个数字

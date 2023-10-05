@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_687;
+package com.uin.level2.leetcode_687;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 687. 最长同值路径

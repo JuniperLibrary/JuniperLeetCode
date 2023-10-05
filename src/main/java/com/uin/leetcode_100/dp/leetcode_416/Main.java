@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_416;
+package com.uin.leetcode_100.dp.leetcode_416;
 
 /**
  * 416. 分割等和子集

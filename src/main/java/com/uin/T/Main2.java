@@ -1,4 +1,4 @@
-package main.java.com.uin.T;
+package com.uin.T;
 
 import java.util.Scanner;
 

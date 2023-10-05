@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1802;
+package com.uin.leetcode_100.greedy.leetcode_1802;
 
 /**
  * 1802. 有界数组中指定下标处的最大值

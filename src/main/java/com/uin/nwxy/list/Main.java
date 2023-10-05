@@ -1,4 +1,4 @@
-package main.java.com.uin.nwxy.list;
+package com.uin.nwxy.list;
 
 import java.util.HashMap;
 import java.util.HashSet;

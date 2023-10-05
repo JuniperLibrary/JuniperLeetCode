@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1545;
+package com.uin.leetcode_100.string.leetcode_1545;
 
 /**
  * 1545. 找出第 N 个二进制字符串中的第 K 位

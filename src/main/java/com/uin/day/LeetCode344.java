@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 /**
  * 344.反转字符串

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_560.preSum;
+package com.uin.leetcode_100.array.LeetCode_560.preSum;
 
 /**
  * LeetCode 724 寻找数组的中心索引

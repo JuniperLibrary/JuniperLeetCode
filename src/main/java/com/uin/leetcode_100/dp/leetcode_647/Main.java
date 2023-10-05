@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_647;
+package com.uin.leetcode_100.dp.leetcode_647;
 
 public class Main {
     int res;

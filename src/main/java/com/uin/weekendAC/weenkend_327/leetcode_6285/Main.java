@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_327.leetcode_6285;
+package com.uin.weekendAC.weenkend_327.leetcode_6285;
 
 import java.util.PriorityQueue;
 

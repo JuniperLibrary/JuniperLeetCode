@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_78;
+package com.uin.leetcode_100.array.LeetCode_78;
 
 import java.util.ArrayList;
 import java.util.List;

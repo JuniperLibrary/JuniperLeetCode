@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_320.leetcode_6241;
+package com.uin.weekendAC.weenkend_320.leetcode_6241;
 
 /**
  * 6241. 数组中不等三元组的数目 显示英文描述

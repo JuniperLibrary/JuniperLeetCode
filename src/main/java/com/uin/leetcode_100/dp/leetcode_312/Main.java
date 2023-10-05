@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_312;
+package com.uin.leetcode_100.dp.leetcode_312;
 
 public class Main {
     public int maxCoins(int[] nums) {

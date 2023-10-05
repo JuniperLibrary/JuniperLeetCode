@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_75;
+package com.uin.leetcode_100.array.LeetCode_75;
 
 /**
  * LeetCode 75 颜色分类

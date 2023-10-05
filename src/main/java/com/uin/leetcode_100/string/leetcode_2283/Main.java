@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_2283;
+package com.uin.leetcode_100.string.leetcode_2283;
 
 import java.util.HashMap;
 

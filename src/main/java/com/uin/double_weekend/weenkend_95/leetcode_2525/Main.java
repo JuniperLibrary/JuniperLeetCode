@@ -1,4 +1,4 @@
-package main.java.com.uin.double_weekend.weenkend_95.leetcode_2525;
+package com.uin.double_weekend.weenkend_95.leetcode_2525;
 
 /**
  * 2525. 根据规则将箱子分类

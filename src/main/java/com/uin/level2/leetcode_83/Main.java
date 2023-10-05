@@ -1,6 +1,6 @@
-package main.java.com.uin.level2.leetcode_83;
+package com.uin.level2.leetcode_83;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 83. 删除排序链表中的重复元素

@@ -1,7 +1,6 @@
-package main.java.com.uin.level2.leetcode_646;
+package com.uin.level2.leetcode_646;
 
 import java.util.Arrays;
-import java.util.Map;
 
 /**
  * 646. 最长数对链

@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_14;
+package com.uin.level2.leetcode_14;
 
 /**
  * 14. 最长公共前缀

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_695;
+package com.uin.leetcode_100.dfs.leetcode_695;
 
 /**
  * 695. 岛屿的最大面积

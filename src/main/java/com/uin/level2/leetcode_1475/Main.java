@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_1475;
+package com.uin.level2.leetcode_1475;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

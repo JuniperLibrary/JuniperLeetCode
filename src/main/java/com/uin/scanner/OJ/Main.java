@@ -1,4 +1,4 @@
-package main.java.com.uin.scanner.OJ;
+package com.uin.scanner.OJ;
 
 import java.util.ArrayList;
 import java.util.Collections;

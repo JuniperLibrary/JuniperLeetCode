@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_902;
+package com.uin.leetcode_100.dp.leetcode_902;
 
 /**
  * 902. 最大为 N 的数字组合

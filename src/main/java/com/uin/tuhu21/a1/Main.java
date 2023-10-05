@@ -1,4 +1,4 @@
-package main.java.com.uin.tuhu21.a1;
+package com.uin.tuhu21.a1;
 
 /**
  * 途虎养车2021秋招Java笔试试卷A-计算组合数

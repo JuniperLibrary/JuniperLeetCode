@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_1706;
+package com.uin.level2.leetcode_1706;
 
 /**
  * 1706. 球会落何处

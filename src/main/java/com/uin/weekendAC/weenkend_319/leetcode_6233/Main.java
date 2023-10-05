@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_319.leetcode_6233;
+package com.uin.weekendAC.weenkend_319.leetcode_6233;
 
 /**
  * 6233. 温度转换

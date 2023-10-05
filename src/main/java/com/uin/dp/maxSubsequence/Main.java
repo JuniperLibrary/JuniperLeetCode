@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.maxSubsequence;
+package com.uin.dp.maxSubsequence;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_724;
+package com.uin.level1.leetcode_724;
 
 import java.util.Arrays;
 //寻找数组的中心索引

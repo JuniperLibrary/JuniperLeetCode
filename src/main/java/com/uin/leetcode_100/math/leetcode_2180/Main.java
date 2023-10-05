@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.math.leetcode_2180;
+package com.uin.leetcode_100.math.leetcode_2180;
 
 /**
  * 2180. 统计各位数字之和为偶数的整数个数

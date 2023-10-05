@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_417;
+package com.uin.leetcode_100.dfs.leetcode_417;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_1806;
+package com.uin.leetcode_100.array.leetcode_1806;
 
 /**
  * 1806. 还原排列的最少操作步数

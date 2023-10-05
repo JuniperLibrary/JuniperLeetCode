@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1813;
+package com.uin.leetcode_100.string.leetcode_1813;
 
 /**
  * 1813. 句子相似性 III

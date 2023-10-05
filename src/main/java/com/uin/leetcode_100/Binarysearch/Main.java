@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch;
+package com.uin.leetcode_100.Binarysearch;
 
 public class Main {
     public static void main(String[] args) {

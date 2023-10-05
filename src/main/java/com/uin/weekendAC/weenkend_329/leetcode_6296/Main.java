@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_329.leetcode_6296;
+package com.uin.weekendAC.weenkend_329.leetcode_6296;
 
 /**
  * 6296. 交替数字和

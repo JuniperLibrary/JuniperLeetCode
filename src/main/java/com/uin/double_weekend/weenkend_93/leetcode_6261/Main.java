@@ -1,4 +1,4 @@
-package main.java.com.uin.double_weekend.weenkend_93.leetcode_6261;
+package com.uin.double_weekend.weenkend_93.leetcode_6261;
 
 /**
  * 6261. 数组中字符串的最大值

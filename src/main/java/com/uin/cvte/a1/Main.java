@@ -1,4 +1,4 @@
-package main.java.com.uin.cvte.a1;
+package com.uin.cvte.a1;
 
 /**
  * 对一个有n个元素的数组，求最大的连续子数组的和，并求其开始、结束下标。

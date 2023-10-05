@@ -1,4 +1,4 @@
-package main.java.com.uin.cvte.a2;
+package com.uin.cvte.a2;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

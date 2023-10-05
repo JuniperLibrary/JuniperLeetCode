@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.Double_index.leetcode_795;
+package com.uin.leetcode_100.array.Double_index.leetcode_795;
 
 /**
  * 795. 区间子数组个数

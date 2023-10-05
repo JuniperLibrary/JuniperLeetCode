@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_775;
+package com.uin.leetcode_100.array.leetcode_775;
 
 /**
  * 775. 全局倒置与局部倒置

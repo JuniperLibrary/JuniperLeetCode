@@ -1,4 +1,4 @@
-package main.java.com.uin.tuhu23.a1;
+package com.uin.tuhu23.a1;
 
 import java.util.*;
 

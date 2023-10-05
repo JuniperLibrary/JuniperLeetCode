@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_1640;
+package com.uin.level2.leetcode_1640;
 
 import java.util.HashMap;
 import java.util.Map;

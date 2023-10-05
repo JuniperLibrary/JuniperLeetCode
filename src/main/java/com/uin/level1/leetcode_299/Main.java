@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_299;
+package com.uin.level1.leetcode_299;
 
 /**
  * 299. 猜数字游戏

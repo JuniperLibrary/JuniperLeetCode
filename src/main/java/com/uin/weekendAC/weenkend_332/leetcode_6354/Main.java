@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_332.leetcode_6354;
+package com.uin.weekendAC.weenkend_332.leetcode_6354;
 
 /**
  * 6354. 找出数组的串联值 给你一个下标从 0 开始的整数数组 nums 。 现定义两个数字的 串联 是由这两个数值串联起来形成的新数字。

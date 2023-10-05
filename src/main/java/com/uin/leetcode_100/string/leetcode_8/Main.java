@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_8;
+package com.uin.leetcode_100.string.leetcode_8;
 
 /**
  * 8. 字符串转换整数

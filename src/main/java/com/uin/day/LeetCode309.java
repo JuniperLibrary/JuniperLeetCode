@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 import lombok.extern.slf4j.Slf4j;
 

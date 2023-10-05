@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_329.leetcode_6297;
+package com.uin.weekendAC.weenkend_329.leetcode_6297;
 
 import java.util.Arrays;
 import java.util.Comparator;

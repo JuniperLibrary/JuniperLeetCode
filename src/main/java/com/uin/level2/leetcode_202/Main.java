@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_202;
+package com.uin.level2.leetcode_202;
 
 import java.util.HashSet;
 

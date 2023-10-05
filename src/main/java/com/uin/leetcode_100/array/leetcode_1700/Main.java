@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_1700;
+package com.uin.leetcode_100.array.leetcode_1700;
 
 /**
  * 1700. 无法吃午餐的学生数量

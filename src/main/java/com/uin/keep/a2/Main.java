@@ -1,4 +1,4 @@
-package main.java.com.uin.keep.a2;
+package com.uin.keep.a2;
 
 /**
  * 2023届Keep秋招后端卷1-小明改分

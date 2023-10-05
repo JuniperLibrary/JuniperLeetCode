@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.hash.leetcode_1797;
+package com.uin.leetcode_100.hash.leetcode_1797;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_207;
+package com.uin.leetcode_100.dfs.leetcode_207;
 
 import java.util.LinkedList;
 import java.util.Queue;

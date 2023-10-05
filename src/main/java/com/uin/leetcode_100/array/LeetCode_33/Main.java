@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_33;
+package com.uin.leetcode_100.array.LeetCode_33;
 
 /**
  * LeetCode 33 搜索旋转排序数组

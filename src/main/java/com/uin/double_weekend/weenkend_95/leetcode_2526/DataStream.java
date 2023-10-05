@@ -1,4 +1,4 @@
-package main.java.com.uin.double_weekend.weenkend_95.leetcode_2526;
+package com.uin.double_weekend.weenkend_95.leetcode_2526;
 
 /**
  * 2526. 找到数据流中的连续整数

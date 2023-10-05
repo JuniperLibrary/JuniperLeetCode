@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.tree.leetcode_669;
+package com.uin.leetcode_100.tree.leetcode_669;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 669. 修剪二叉搜索树

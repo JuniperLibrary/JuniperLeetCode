@@ -1,4 +1,4 @@
-package main.java.com.uin.souhu20.a1;
+package com.uin.souhu20.a1;
 
 import java.util.Scanner;
 

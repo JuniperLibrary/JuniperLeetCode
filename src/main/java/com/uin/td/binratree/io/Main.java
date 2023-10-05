@@ -1,4 +1,4 @@
-package main.java.com.uin.td.binratree.io;
+package com.uin.td.binratree.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

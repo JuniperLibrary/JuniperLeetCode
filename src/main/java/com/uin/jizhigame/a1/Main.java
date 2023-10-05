@@ -1,4 +1,4 @@
-package main.java.com.uin.jizhigame.a1;
+package com.uin.jizhigame.a1;
 
 import java.util.Scanner;
 

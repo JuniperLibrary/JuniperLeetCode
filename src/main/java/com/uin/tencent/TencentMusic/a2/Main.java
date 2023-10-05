@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TencentMusic.a2;
+package com.uin.tencent.TencentMusic.a2;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;

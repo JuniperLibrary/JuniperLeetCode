@@ -1,4 +1,4 @@
-package main.java.com.uin.shuzimali.a2;
+package com.uin.shuzimali.a2;
 
 import java.util.Scanner;
 

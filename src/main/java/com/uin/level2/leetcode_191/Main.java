@@ -1,4 +1,4 @@
-package main.java.com.uin.level2.leetcode_191;
+package com.uin.level2.leetcode_191;
 
 /**
  * 191. 位1的个数

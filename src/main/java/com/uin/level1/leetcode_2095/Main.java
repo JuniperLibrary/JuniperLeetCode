@@ -1,6 +1,6 @@
-package main.java.com.uin.level1.leetcode_2095;
+package com.uin.level1.leetcode_2095;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 2095. 删除链表的中间节点

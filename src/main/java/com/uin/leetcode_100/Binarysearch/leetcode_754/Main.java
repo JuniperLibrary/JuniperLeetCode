@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_754;
+package com.uin.leetcode_100.Binarysearch.leetcode_754;
 
 /**
  * LeetCode 754. 到达终点数字

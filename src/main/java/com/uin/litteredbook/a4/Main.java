@@ -1,4 +1,4 @@
-package main.java.com.uin.litteredbook.a4;
+package com.uin.litteredbook.a4;
 
 /**
  * 击败魔物

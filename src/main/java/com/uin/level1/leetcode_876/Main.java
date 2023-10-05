@@ -1,6 +1,6 @@
-package main.java.com.uin.level1.leetcode_876;
+package com.uin.level1.leetcode_876;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 876. 链表的中间结点

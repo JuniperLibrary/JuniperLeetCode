@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_509;
+package com.uin.leetcode_100.dp.leetcode_509;
 
 /**
  * 509. 斐波那契数

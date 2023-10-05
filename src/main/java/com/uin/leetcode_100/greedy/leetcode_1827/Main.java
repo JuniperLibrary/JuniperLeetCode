@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1827;
+package com.uin.leetcode_100.greedy.leetcode_1827;
 
 /**
  * 1827. 最少操作使数组递增

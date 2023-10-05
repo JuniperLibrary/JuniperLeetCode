@@ -1,4 +1,4 @@
-package main.java.com.uin.qianxin_2021_1.a1;
+package com.uin.qianxin_2021_1.a1;
 
 import java.util.Arrays;
 

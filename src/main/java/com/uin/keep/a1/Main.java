@@ -1,4 +1,4 @@
-package main.java.com.uin.keep.a1;
+package com.uin.keep.a1;
 
 /**
  * 2023届Keep秋招后端卷1-劳逸结合

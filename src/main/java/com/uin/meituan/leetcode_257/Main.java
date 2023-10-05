@@ -1,6 +1,6 @@
-package main.java.com.uin.meituan.leetcode_257;
+package com.uin.meituan.leetcode_257;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

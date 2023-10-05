@@ -1,6 +1,6 @@
-package main.java.com.uin.jzoffer2.jz06;
+package com.uin.jzoffer2.jz06;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 import java.util.ArrayList;
 

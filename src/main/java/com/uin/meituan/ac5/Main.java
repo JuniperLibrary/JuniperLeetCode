@@ -1,4 +1,4 @@
-package main.java.com.uin.meituan.ac5;
+package com.uin.meituan.ac5;
 
 import java.util.ArrayList;
 import java.util.List;

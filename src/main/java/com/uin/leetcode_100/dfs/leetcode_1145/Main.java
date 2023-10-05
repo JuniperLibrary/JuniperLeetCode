@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_1145;
+package com.uin.leetcode_100.dfs.leetcode_1145;
 
 public class Main {
     private int x, lsz, rsz;

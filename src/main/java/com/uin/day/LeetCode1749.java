@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 /**
  * 1749. 任意子数组和的绝对值的最大值

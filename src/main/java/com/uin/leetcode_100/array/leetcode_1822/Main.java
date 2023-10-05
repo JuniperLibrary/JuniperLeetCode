@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.leetcode_1822;
+package com.uin.leetcode_100.array.leetcode_1822;
 
 /**
  * 1822.数组元素积的符号

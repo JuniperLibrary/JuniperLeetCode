@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1768;
+package com.uin.leetcode_100.string.leetcode_1768;
 
 /**
  * 1768.交替合并字符串

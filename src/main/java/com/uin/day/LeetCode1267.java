@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 public class LeetCode1267 {
 

@@ -1,4 +1,4 @@
-package main.java.com.uin.dp.decoding;
+package com.uin.dp.decoding;
 
 public class Main1 {
     public static void main(String[] args) {

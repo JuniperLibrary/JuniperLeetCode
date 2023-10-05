@@ -1,6 +1,6 @@
-package main.java.com.uin.tencent.tree;
+package com.uin.tencent.tree;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.*;
 

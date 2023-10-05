@@ -1,4 +1,4 @@
-package main.java.com.uin.tuhu21.a2;
+package com.uin.tuhu21.a2;
 
 /**
  * 途虎养车2021秋招Java笔试试卷A-合并两个有序数组

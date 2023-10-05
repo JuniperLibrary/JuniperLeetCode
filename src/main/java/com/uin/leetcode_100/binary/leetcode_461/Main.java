@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.binary.leetcode_461;
+package com.uin.leetcode_100.binary.leetcode_461;
 
 public class Main {
     public int hammingDistance(int x, int y) {

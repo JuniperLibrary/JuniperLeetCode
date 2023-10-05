@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_35;
+package com.uin.leetcode_100.Binarysearch.leetcode_35;
 
 /**
  * 35. 搜索插入位置

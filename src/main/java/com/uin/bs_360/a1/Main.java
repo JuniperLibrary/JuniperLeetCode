@@ -1,4 +1,4 @@
-package main.java.com.uin.bs_360.a1;
+package com.uin.bs_360.a1;
 
 import java.util.Scanner;
 

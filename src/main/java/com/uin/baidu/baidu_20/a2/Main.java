@@ -1,4 +1,4 @@
-package main.java.com.uin.baidu.baidu_20.a2;
+package com.uin.baidu.baidu_20.a2;
 
 import java.util.*;
 

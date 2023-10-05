@@ -1,4 +1,4 @@
-package main.java.com.uin.kdxf.xy2;
+package com.uin.kdxf.xy2;
 
 import java.util.ArrayList;
 import java.util.List;

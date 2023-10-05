@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_704;
+package com.uin.level1.leetcode_704;
 
 /**
  * 704. 二分查找

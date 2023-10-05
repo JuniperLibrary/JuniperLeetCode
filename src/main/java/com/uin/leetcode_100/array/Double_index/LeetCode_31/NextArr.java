@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.Double_index.LeetCode_31;
+package com.uin.leetcode_100.array.Double_index.LeetCode_31;
 
 /**
  * LeetCode 31 下一个排列

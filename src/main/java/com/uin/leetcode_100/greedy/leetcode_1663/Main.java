@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1663;
+package com.uin.leetcode_100.greedy.leetcode_1663;
 
 /**
  * 1663. 具有给定数值的最小字符串

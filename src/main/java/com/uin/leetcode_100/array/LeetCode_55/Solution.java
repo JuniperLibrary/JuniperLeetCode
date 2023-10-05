@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_55;
+package com.uin.leetcode_100.array.LeetCode_55;
 
 public class Solution {
     public boolean canJump(int[] nums) {

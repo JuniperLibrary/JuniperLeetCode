@@ -1,4 +1,4 @@
-package main.java.com.uin.didi.didi23.a2;
+package com.uin.didi.didi23.a2;
 
 import java.util.Scanner;
 

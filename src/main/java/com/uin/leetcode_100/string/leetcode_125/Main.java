@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_125;
+package com.uin.leetcode_100.string.leetcode_125;
 
 /**
  * 125. 验证回文串

@@ -1,4 +1,4 @@
-package main.java.com.uin.webank;
+package com.uin.webank;
 
 import java.util.HashMap;
 import java.util.Map;

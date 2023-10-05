@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_328.leetcode_6292;
+package com.uin.weekendAC.weenkend_328.leetcode_6292;
 
 /**
  * 6292. 子矩阵元素加 1

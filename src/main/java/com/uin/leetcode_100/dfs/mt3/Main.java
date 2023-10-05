@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.mt3;
+package com.uin.leetcode_100.dfs.mt3;
 
 import java.util.TreeMap;
 

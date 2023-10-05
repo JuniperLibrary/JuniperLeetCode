@@ -1,6 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1221;
-
-import java.util.Arrays;
+package com.uin.leetcode_100.greedy.leetcode_1221;
 
 /**
  * 1221.分割平衡字符串

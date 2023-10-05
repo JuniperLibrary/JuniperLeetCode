@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_2041;
+package com.uin.leetcode_100.string.leetcode_2041;
 
 /**
  * 2042. 检查句子中的数字是否递增

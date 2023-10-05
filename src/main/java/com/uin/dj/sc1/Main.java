@@ -1,4 +1,4 @@
-package main.java.com.uin.dj.sc1;
+package com.uin.dj.sc1;
 /**
  * 获取最大收益
  * 题目描述：

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_1254;
+package com.uin.leetcode_100.dfs.leetcode_1254;
 
 /**
  * 1254. 统计封闭岛屿的数目

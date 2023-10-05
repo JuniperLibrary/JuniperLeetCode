@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1662;
+package com.uin.leetcode_100.string.leetcode_1662;
 
 /**
  * 1662. 检查两个字符串数组是否相等

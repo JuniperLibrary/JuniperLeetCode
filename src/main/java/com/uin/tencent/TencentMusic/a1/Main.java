@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TencentMusic.a1;
+package com.uin.tencent.TencentMusic.a1;
 
 /**
  * 腾讯音乐娱乐集团2022暑期实习生招聘技术类岗位编程--小红的二进制删数字

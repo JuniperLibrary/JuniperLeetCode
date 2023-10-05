@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.array.LeetCode_48;
+package com.uin.leetcode_100.array.LeetCode_48;
 
 /**
  * LeetCode 46 旋转图像

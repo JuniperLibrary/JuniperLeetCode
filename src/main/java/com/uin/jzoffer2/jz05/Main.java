@@ -1,4 +1,4 @@
-package main.java.com.uin.jzoffer2.jz05;
+package com.uin.jzoffer2.jz05;
 
 /**
  * 剑指 Offer 05. 替换空格

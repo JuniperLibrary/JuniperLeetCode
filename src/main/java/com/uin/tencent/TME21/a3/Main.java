@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TME21.a3;
+package com.uin.tencent.TME21.a3;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

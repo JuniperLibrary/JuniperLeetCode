@@ -1,4 +1,4 @@
-package main.java.com.uin.baidu.baidu_20.a1;
+package com.uin.baidu.baidu_20.a1;
 
 import java.util.Scanner;
 

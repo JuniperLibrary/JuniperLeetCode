@@ -1,4 +1,4 @@
-package main.java.com.uin.nwxy.hashmap;
+package com.uin.nwxy.hashmap;
 
 import java.util.HashMap;
 

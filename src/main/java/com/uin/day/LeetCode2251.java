@@ -1,4 +1,4 @@
-package main.java.com.uin.day;
+package com.uin.day;
 
 import cn.hutool.json.JSONUtil;
 import java.util.Arrays;

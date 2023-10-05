@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_213;
+package com.uin.leetcode_100.dp.leetcode_213;
 
 /**
  * 213. 打家劫舍 II

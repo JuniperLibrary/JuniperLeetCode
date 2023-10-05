@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.linkedlist.leetcode_203;
+package com.uin.leetcode_100.linkedlist.leetcode_203;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 203.移除链表元素

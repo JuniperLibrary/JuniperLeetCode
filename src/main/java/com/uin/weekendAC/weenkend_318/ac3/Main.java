@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_318.ac3;
+package com.uin.weekendAC.weenkend_318.ac3;
 
 
 import java.util.PriorityQueue;

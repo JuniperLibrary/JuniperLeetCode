@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.int_17_09;
+package com.uin.leetcode_100.dp.int_17_09;
 
 import java.util.HashSet;
 import java.util.PriorityQueue;

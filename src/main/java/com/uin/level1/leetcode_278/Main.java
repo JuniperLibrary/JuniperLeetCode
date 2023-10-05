@@ -1,4 +1,4 @@
-package main.java.com.uin.level1.leetcode_278;
+package com.uin.level1.leetcode_278;
 
 /**
  * 278. 第一个错误的版本

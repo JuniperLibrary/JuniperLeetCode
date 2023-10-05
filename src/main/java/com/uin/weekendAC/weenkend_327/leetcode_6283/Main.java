@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_327.leetcode_6283;
+package com.uin.weekendAC.weenkend_327.leetcode_6283;
 
 /**
  * 6283. 正整数和负整数的最大计数

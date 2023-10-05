@@ -1,4 +1,4 @@
-package main.java.com.uin.weekendAC.weenkend_322.leetcode_2490;
+package com.uin.weekendAC.weenkend_322.leetcode_2490;
 
 /**
  * 2490.回环句

@@ -1,4 +1,4 @@
-package main.java.com.uin.zhecoflow;
+package com.uin.zhecoflow;
 
 public class Test {
     public static void main(String[] args) {

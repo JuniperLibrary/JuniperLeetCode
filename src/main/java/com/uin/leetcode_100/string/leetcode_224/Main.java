@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_224;
+package com.uin.leetcode_100.string.leetcode_224;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.tree.leetcode_96;
+package com.uin.leetcode_100.tree.leetcode_96;
 
 /**
  * @author wanglufei

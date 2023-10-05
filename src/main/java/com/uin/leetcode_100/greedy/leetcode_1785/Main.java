@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.greedy.leetcode_1785;
+package com.uin.leetcode_100.greedy.leetcode_1785;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_2185;
+package com.uin.leetcode_100.string.leetcode_2185;
 
 /**
  * 2185. 统计包含给定前缀的字符串

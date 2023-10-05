@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1945;
+package com.uin.leetcode_100.string.leetcode_1945;
 
 /**
  * 1945. 字符串转化后的各位数字之和

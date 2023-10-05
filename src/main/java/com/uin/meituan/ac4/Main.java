@@ -1,4 +1,4 @@
-package main.java.com.uin.meituan.ac4;
+package com.uin.meituan.ac4;
 
 import java.util.Arrays;
 import java.util.Scanner;

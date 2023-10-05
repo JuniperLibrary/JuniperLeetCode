@@ -1,6 +1,6 @@
-package main.java.com.uin.leetcode_100.linkedlist.Interview_02_05;
+package com.uin.leetcode_100.linkedlist.Interview_02_05;
 
-import main.java.com.uin.leetcode_100.linkedlist.ListNode;
+import com.uin.leetcode_100.linkedlist.ListNode;
 
 /**
  * 面试题 02.05. 链表求和

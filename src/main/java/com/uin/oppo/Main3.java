@@ -1,4 +1,4 @@
-package main.java.com.uin.oppo;
+package com.uin.oppo;
 
 import java.util.Date;
 import java.util.Scanner;

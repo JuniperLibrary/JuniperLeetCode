@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.leetcode_424;
+package com.uin.leetcode_100.slidingwindow.leetcode_424;
 
 /**
  * 424. 替换后的最长重复字符

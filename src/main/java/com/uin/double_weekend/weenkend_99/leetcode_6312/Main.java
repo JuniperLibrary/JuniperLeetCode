@@ -1,4 +1,4 @@
-package main.java.com.uin.double_weekend.weenkend_99.leetcode_6312;
+package com.uin.double_weekend.weenkend_99.leetcode_6312;
 
 public class Main {
 

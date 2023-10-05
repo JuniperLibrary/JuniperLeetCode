@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dfs.leetcode_753;
+package com.uin.leetcode_100.dfs.leetcode_753;
 
 import java.util.HashMap;
 import java.util.Map;

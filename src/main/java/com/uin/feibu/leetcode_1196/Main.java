@@ -1,4 +1,4 @@
-package main.java.com.uin.feibu.leetcode_1196;
+package com.uin.feibu.leetcode_1196;
 
 import java.util.Arrays;
 

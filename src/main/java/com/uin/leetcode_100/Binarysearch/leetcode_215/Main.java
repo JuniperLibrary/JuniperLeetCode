@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.Binarysearch.leetcode_215;
+package com.uin.leetcode_100.Binarysearch.leetcode_215;
 
 
 import java.util.PriorityQueue;

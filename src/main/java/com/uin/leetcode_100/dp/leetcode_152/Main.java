@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.dp.leetcode_152;
+package com.uin.leetcode_100.dp.leetcode_152;
 
 /**
  * 152. 乘积最大子数组

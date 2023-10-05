@@ -1,4 +1,4 @@
-package main.java.com.uin.zhecoflow.ac1;
+package com.uin.zhecoflow.ac1;
 //hanamaru和zura。
 
 import java.util.Arrays;

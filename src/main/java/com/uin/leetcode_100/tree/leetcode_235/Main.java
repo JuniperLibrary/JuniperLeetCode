@@ -1,7 +1,7 @@
-package main.java.com.uin.leetcode_100.tree.leetcode_235;
+package com.uin.leetcode_100.tree.leetcode_235;
 
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 /**
  * 235. 二叉搜索树的最近公共祖先

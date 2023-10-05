@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.slidingwindow.jz42;
+package com.uin.leetcode_100.slidingwindow.jz42;
 
 /**
  * 滑动窗口

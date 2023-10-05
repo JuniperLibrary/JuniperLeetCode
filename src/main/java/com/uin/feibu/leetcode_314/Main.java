@@ -1,6 +1,6 @@
-package main.java.com.uin.feibu.leetcode_314;
+package com.uin.feibu.leetcode_314;
 
-import main.java.com.uin.leetcode_100.tree.TreeNode;
+import com.uin.leetcode_100.tree.TreeNode;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package main.java.com.uin.weilai;
+package com.uin.weilai;
 
 
 import java.util.*;

@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.partialsum.Leetcode_42;
+package com.uin.leetcode_100.partialsum.Leetcode_42;
 
 import java.util.Stack;
 

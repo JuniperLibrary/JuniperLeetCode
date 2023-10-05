@@ -1,4 +1,4 @@
-package main.java.com.uin.leetcode_100.string.leetcode_1678;
+package com.uin.leetcode_100.string.leetcode_1678;
 
 /**
  * 1678. 设计 Goal 解析器

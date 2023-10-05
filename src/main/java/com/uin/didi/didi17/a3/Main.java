@@ -1,9 +1,7 @@
-package main.java.com.uin.didi.didi17.a3;
+package com.uin.didi.didi17.a3;
 
 import java.util.ArrayList;
-import java.util.PriorityQueue;
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * 滴滴出行2017秋招笔试真题-编程题汇总--地下迷宫
@@ -39,8 +37,9 @@ public class Main {
             ArrayList<Integer> path = new ArrayList<>();
 
             if (isTruePath(0, 0, P, a, path, flag)) {
-                for (int i = 0; i < path.size() - 2; i += 2)
-                    System.out.print("[" + path.get(i) + "," + path.get(i + 1) + "]" + ",");
+                for (int i = 0; i < path.size() - 2; i += 2) {
+                  System.out.print("[" + path.get(i) + "," + path.get(i + 1) + "]" + ",");
+                }
                 System.out.println("[" + path.get(path.size() - 2) + "," + path.get(path.size() - 1) + "]");
             } else {
                 System.out.println("Can not escape!");

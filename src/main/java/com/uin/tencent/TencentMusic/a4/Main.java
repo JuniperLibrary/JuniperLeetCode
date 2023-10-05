@@ -1,4 +1,4 @@
-package main.java.com.uin.tencent.TencentMusic.a4;
+package com.uin.tencent.TencentMusic.a4;
 
 import java.util.HashMap;
 
