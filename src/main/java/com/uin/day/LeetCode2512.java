@@ -1,14 +1,17 @@
 package com.uin.day;
 
+import cn.hutool.json.JSONUtil;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author lin.liu
  */
+@Slf4j
 public class LeetCode2512 {
 
   /**
@@ -37,7 +40,18 @@ public class LeetCode2512 {
    * 学生 2 分数更高，所以返回 [2,1] 。
    */
 
-  public List<Integer> toStudents(String[] positive_feedback, String[] negative_feedback,
+
+  public static void main(String[] args) {
+    String[] positive_feedback = {"smart", "brilliant", "studious"};
+    String[] negative_feedback = {"not"};
+    String[] report = {"this student is not studious", "the student is smart"};
+    int[] student_id = {1, 2};
+    int k = 2;
+    List<Integer> list = toStudents(positive_feedback, negative_feedback, report, student_id, k);
+    log.info(JSONUtil.toJsonStr(list));
+  }
+
+  public static List<Integer> toStudents(String[] positive_feedback, String[] negative_feedback,
       String[] report, int[] student_id, int k) {
     // 从大到小 int[]{student_id,score}
     PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(
