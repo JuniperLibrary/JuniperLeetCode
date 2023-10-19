@@ -47,5 +47,69 @@ public class LeetCode2530 {
     int[] nums = {1, 10, 3, 3, 3};
     int k = 3;
     log.info("执行k次操作后的最大分数:{}", maxKelements(nums, k));
+    log.info("执行k次操作后的最大分数:{}", maxKelements2(nums, k));
+  }
+
+
+  public static long maxKelements2(int[] nums, int k) {
+    // 自己构建大根堆
+    heapify(nums);
+    long ans = 0;
+    while (k-- > 0) {
+      // 堆顶
+      ans += nums[0];
+      nums[0] = (nums[0] + 2) / 3;
+      // 维持大根堆
+      sink(nums, 0);
+    }
+    return ans;
+  }
+
+  /**
+   * 把 h[i] 不断下沉，直到 i 的左右儿子都 <= h[i]
+   */
+  private static void sink(int[] h, int i) {
+    int n = h.length;
+    while (2 * i + 1 < n) {
+      // i 的左儿子
+      int j = 2 * i + 1;
+      // i 的右儿子比 i 的左儿子大
+      if (j + 1 < n && h[j + 1] > h[j]) {
+        j++;
+      }
+      // 说明 i 的左右儿子都 <= h[i]，停止下沉
+      if (h[j] <= h[i]) {
+        break;
+      }
+      // 下沉
+      swap(h, i, j);
+      i = j;
+    }
+  }
+
+  /**
+   * 交换 h[i] 和 h[j]
+   *
+   * @param h
+   * @param i
+   * @param j
+   */
+  private static void swap(int[] h, int i, int j) {
+    int tmp = h[i];
+    h[i] = h[j];
+    h[j] = tmp;
+  }
+
+  /**
+   * 堆化可以保证 h[0] 是堆顶元素，且 h[i] >= max(h[2*i+1], h[2*i+2])
+   *
+   * @param h
+   */
+  private static void heapify(int[] h) {
+    // 下标 >= h.length / 2 的元素是二叉树的叶子，无需下沉
+    // 倒着遍历，从而保证 i 的左右子树一定是堆，那么 sink(h, i) 就可以把左右子树合并成一个堆
+    for (int i = h.length / 2 - 1; i >= 0; i--) {
+      sink(h, i);
+    }
   }
 }
