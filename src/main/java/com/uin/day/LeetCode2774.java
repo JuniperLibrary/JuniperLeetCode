@@ -7,6 +7,23 @@ import java.util.Arrays;
  */
 public class LeetCode2774 {
 
+
+  public static int maximumNumberOfStringPairs2(String[] words){
+    // "cd","ac","dc","ca","zz"
+    int ans =0;
+    boolean[][] seen = new boolean[26][26];
+    for (String s : words) {
+      int x = s.charAt(0) -'a';
+      int y = s.charAt(1) -'a';
+      if (seen[y][x]){
+        ans++;
+      }else {
+        seen[x][y]=true;
+      }
+    }
+    return ans;
+  }
+
   public static int maximumNumberOfStringPairs(String[] words) {
     // 字符串words[i] 等于 words[j]的反转字符串
     // 0 <= i < j < words.length
@@ -39,8 +56,10 @@ public class LeetCode2774 {
       return word;
   }
 
+
+
   public static void main(String[] args) {
     String[] words ={"cd","ac","dc","ca","zz"};
-    System.out.print( maximumNumberOfStringPairs(words));
+    System.out.print( maximumNumberOfStringPairs2(words));
   }
 }
