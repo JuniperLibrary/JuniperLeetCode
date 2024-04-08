@@ -18,18 +18,21 @@
   </properties>
 
   <dependencies>
+    <!-- Hutool工具集依赖，提供各种便捷的工具方法 -->
     <dependency>
       <groupId>cn.hutool</groupId>
       <artifactId>hutool-all</artifactId>
       <version>5.7.17</version>
     </dependency>
 
+    <!-- Lombok依赖，简化JavaBean的开发 -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.22</version>
     </dependency>
 
+    <!-- SLF4J日志接口依赖，为各种日志框架提供统一的接口 -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
@@ -37,12 +40,14 @@
       <scope>compile</scope>
     </dependency>
 
+    <!-- Logback核心依赖，是SLF4J接口的具体实现 -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
       <version>${logback.version}</version>
     </dependency>
 
+    <!-- Logback经典依赖，提供了更多日志记录方式 -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
