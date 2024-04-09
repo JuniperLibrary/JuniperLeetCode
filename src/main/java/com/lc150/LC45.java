@@ -29,6 +29,32 @@ public class LC45 {
     return dp[n - 1];
   }
 
+  public int jumpGreedy(int[] nums){
+    int n = nums.length;
+    // 记录当前已用的跳跃次数，初始值为 0
+    int steps = 0;
+    // 当前可达到的最远位置
+    int maxReach =0;
+    // 下一次跳跃时可达到的最远位置
+    int nextMaxReach = 0;
+
+    for (int i = 0; i < n - 1; i++) {
+      // 更新下一次跳跃时的最远位置
+      nextMaxReach = Math.max(nextMaxReach, i + nums[i]);
+      // 如果当前位置等于当前可达到的最远位置，说明需要跳跃一次，更新当前可达到的最远位置为下一次跳跃时的最远位置
+      if (i == maxReach){
+        steps++;
+        maxReach = nextMaxReach;
+      }
+    }
+
+    if(maxReach < n-1){
+      return -1;
+    }else {
+      return steps+1;
+    }
+  }
+
   public static void main(String[] args) {
     int[] nums = {2, 3, 1, 1, 4};
     System.out.println(new LC45().jump(nums));
