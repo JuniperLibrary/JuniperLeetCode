@@ -4,12 +4,11 @@ import java.math.BigDecimal;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Stream;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class TradeProcessor {
 
-  private static final Logger log = LoggerFactory.getLogger(TradeProcessor.class);
 
   // Use ConcurrentMap for thread safety
   private final ConcurrentMap<String, BigDecimal> codeWithPreVolume = new ConcurrentHashMap<>();
