@@ -1,17 +1,17 @@
-# 🍓LeetCode 100 HOT
+LeetCode 100 HOT
 
-## 动态规划
+db
 
-## 前缀和
+prefix sum
 
-## 贪心算法
+greedy
 
-## 回溯
+backtrace
 
-## 双指针
+double point
 
-## DFS和BFS
+dfs and bfs
 
-## 二分法
+binary algorithm
 
-## 滑动窗口
+sliding window
