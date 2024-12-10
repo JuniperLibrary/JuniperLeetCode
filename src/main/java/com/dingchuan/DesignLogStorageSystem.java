@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class DesignLogStorageSystem {
 
-  private List<LogEntry> logs;
+  private List<LogEntry> logEntryList;
 
   private static class LogEntry {
 
@@ -34,7 +34,7 @@ public class DesignLogStorageSystem {
   }
 
   public DesignLogStorageSystem() {
-    logs = new ArrayList<>();
+    logEntryList = new ArrayList<>();
   }
 
   /**
@@ -44,7 +44,7 @@ public class DesignLogStorageSystem {
    * @param timestamp
    */
   public void put(int id, String timestamp) {
-    logs.add(new LogEntry(id, timestamp));
+    logEntryList.add(new LogEntry(id, timestamp));
   }
 
   /**
@@ -68,7 +68,7 @@ public class DesignLogStorageSystem {
     String truncatedEnd = truncate(end, granularity);
 
     // 遍历所有日志记录，根据粒度和时间范围筛选日志
-    for (LogEntry log : logs) {
+    for (LogEntry log : logEntryList) {
       String truncatedTimestamp = truncate(log.timestamp, granularity);
       if (truncatedTimestamp.compareTo(truncatedStart) >= 0 && truncatedTimestamp.compareTo(truncatedEnd) <= 0) {
         result.add(log.id);
