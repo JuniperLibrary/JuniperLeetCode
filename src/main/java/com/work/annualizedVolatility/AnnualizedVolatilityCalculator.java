@@ -19,7 +19,7 @@ public class AnnualizedVolatilityCalculator {
     }
   }
 
-  public static BigDecimal calculateAnnualizedVolatility(List<DailyData> dailyDataList, int annualTradingDays) {
+  public static BigDecimal calculateAnnualizedVolatility(List<DailyData> dailyDataList) {
     // Step 1: 计算每日收益率
     List<BigDecimal> dailyReturns = new ArrayList<>();
     for (DailyData data : dailyDataList) {
@@ -47,8 +47,8 @@ public class AnnualizedVolatilityCalculator {
     BigDecimal standardDeviation = sqrt(variance, 10); // 自定义平方根方法
 
     // Step 4: 年化波动率
-    BigDecimal annualizedVolatility = standardDeviation.multiply(sqrt(new BigDecimal(annualTradingDays), 10));
-    return annualizedVolatility;
+//    BigDecimal annualizedVolatility = standardDeviation.multiply(sqrt(new BigDecimal(annualTradingDays), 10));
+    return standardDeviation;
   }
 
   // 自定义平方根方法
@@ -78,7 +78,7 @@ public class AnnualizedVolatilityCalculator {
     );
 
     // 计算年化波动率（假设一年有252个交易日）
-    BigDecimal annualizedVolatility = calculateAnnualizedVolatility(dailyDataList, 252);
+    BigDecimal annualizedVolatility = calculateAnnualizedVolatility(dailyDataList);
     System.out.println("年化波动率: " + annualizedVolatility);
   }
 }

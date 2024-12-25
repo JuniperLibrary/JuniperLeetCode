@@ -59,9 +59,11 @@ public class AnnualizedReturnCalculatorWithBaseline {
 
     // 年化收益率公式：Annualized Return = (1 + R)^(1/t) - 1
     BigDecimal one = BigDecimal.ONE;
-    BigDecimal annualizedReturn = (one.add(totalR)) // 1 + R
-        .pow(one.divide(t, MathContext.DECIMAL128).intValue(), MathContext.DECIMAL128) // ^(1/t)
-        .subtract(one); // - 1
+    BigDecimal annualizedReturn = BigDecimal.valueOf(
+        Math.pow(one.add(totalR).doubleValue(), one.divide(t, MathContext.DECIMAL128).doubleValue())
+    ).subtract(one);
+    // 0.330500%
+    // 0.014300%
 
     // 返回结果，保留6位小数
     return annualizedReturn.setScale(6, RoundingMode.HALF_UP);
