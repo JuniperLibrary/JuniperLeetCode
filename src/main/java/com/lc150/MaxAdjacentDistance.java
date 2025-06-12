@@ -1,6 +1,6 @@
 package com.lc150;
 
-public class maxAdjacentDistance {
+public class MaxAdjacentDistance {
 
   public int maxAdjacentDistance(int[] nums) {
     int maxDiff = 0;
@@ -16,7 +16,7 @@ public class maxAdjacentDistance {
   }
 
   public static void main(String[] args) {
-    maxAdjacentDistance obj = new maxAdjacentDistance();
+    MaxAdjacentDistance obj = new MaxAdjacentDistance();
     System.out.println(obj.maxAdjacentDistance(new int[]{1, 2, 3}));
   }
 }
